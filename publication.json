@@ -1,0 +1,163 @@
+{
+  "reports": [
+    {
+      "date": "2026-09-24",
+      "session": "premarket",
+      "identity": "历史重编",
+      "sha256": "0c763a7dfbb488191ce57fc5fb7b1742f0c1693798c249b73ad9c1a157e5520d",
+      "page": "report-2026-09-24-premarket-0c763a7dfbb4.html"
+    },
+    {
+      "date": "2026-09-24",
+      "session": "close",
+      "identity": "历史重编",
+      "sha256": "b13402acaaa172b1a292234a61b538db7c3966f62ad2b492608c6fb75f7d087a",
+      "page": "report-2026-09-24-close-b13402acaaa1.html"
+    },
+    {
+      "date": "2026-09-28",
+      "session": "premarket",
+      "identity": "审阅版",
+      "sha256": "9ce7218153c8eff61e55c07ea2e42f940e38c1f52a333a71d85653796c214cc6",
+      "page": "report-2026-09-28-premarket-9ce7218153c8.html"
+    },
+    {
+      "date": "2026-09-28",
+      "session": "close",
+      "identity": "审阅版",
+      "sha256": "696e5f734ffade1b4a783b3a523d2061f1a58caaa78413e2fe065ff00323abcd",
+      "page": "report-2026-09-28-close-696e5f734ffa.html"
+    },
+    {
+      "date": "2026-09-29",
+      "session": "premarket",
+      "identity": "审阅版",
+      "sha256": "718f57ade145e543a9e19ab817402054bde8dc34accd20ece0b9d82c618db905",
+      "page": "report-2026-09-29-premarket-718f57ade145.html"
+    },
+    {
+      "date": "2026-09-29",
+      "session": "close",
+      "identity": "审阅版",
+      "sha256": "8236c71edb06de18fa72e952f4ee68118a5a11a92f7b639e4f79aa77d30e64a3",
+      "page": "report-2026-09-29-close-8236c71edb06.html"
+    },
+    {
+      "date": "2026-09-30",
+      "session": "premarket",
+      "identity": "审阅版",
+      "sha256": "1f24702a96e436e22cf08cbf9fbbee8e19a6439525e0495491366ae46214b661",
+      "page": "report-2026-09-30-premarket-1f24702a96e4.html"
+    },
+    {
+      "date": "2026-09-30",
+      "session": "close",
+      "identity": "审阅版",
+      "sha256": "213d868947d4f0c3dfaaf85410e5a4c9627aa9b6eacd765716eec8868d42aabf",
+      "page": "report-2026-09-30-close-213d868947d4.html"
+    },
+    {
+      "date": "2026-09-30",
+      "session": "close",
+      "identity": "审阅版",
+      "sha256": "aab1a5de6b2463929a36cad9855211d82cd18833e9d482d90260cdcc7e58f3da",
+      "page": "report-2026-09-30-close-aab1a5de6b24.html"
+    },
+    {
+      "date": "2026-09-30",
+      "session": "close",
+      "identity": "审阅版",
+      "sha256": "f70d31f56af0499dc823156a9bf25bb49dac87187bf611aa8be798f6bb300829",
+      "page": "report-2026-09-30-close-f70d31f56af0.html"
+    },
+    {
+      "date": "2026-09-30",
+      "session": "close",
+      "identity": "审阅版",
+      "sha256": "982dfdb7abf07216acdb13a73aa9e357adf205a17b57fbfaa312a13311ebf3a4",
+      "page": "report-2026-09-30-close-982dfdb7abf0.html"
+    },
+    {
+      "date": "2026-10-08",
+      "session": "premarket",
+      "identity": "审阅版",
+      "sha256": "46365e44227df4e1b4a7566a722cd1e6358b314036af7090e4afe532bf4902ab",
+      "page": "report-2026-10-08-premarket-46365e44227d.html"
+    },
+    {
+      "date": "2026-10-08",
+      "session": "close",
+      "identity": "审阅版",
+      "sha256": "b3831bb01b4e000a03e8c7ab8997b9556b4ed1a928f3cc24c66506526d4b0b53",
+      "page": "report-2026-10-08-close-b3831bb01b4e.html"
+    },
+    {
+      "date": "2026-10-08",
+      "session": "close",
+      "identity": "审阅版",
+      "sha256": "1ac957febb2d0f617eebc212e7229a90ded7a20b76a0c3f712be0c2d94fee35f",
+      "page": "report-2026-10-08-close-1ac957febb2d.html"
+    },
+    {
+      "date": "2026-10-09",
+      "session": "premarket",
+      "identity": "审阅版",
+      "sha256": "7b1d8d193b4ffa014647caa42a26bee26cf2d062667f7fbe4bd9a9e76fe845d7",
+      "page": "report-2026-10-09-premarket-7b1d8d193b4f.html"
+    }
+  ],
+  "poolDate": "2026-10-09",
+  "schema": "yansheng-publication-v2",
+  "release_id": "fd9fea3188557664467431b7",
+  "published_at": null,
+  "prepared_at": "2026-10-08T23:20:54.190672+00:00",
+  "bundle": {
+    "path": "release-fd9fea3188557664467431b7.json",
+    "sha256": "e95d7daa5a792910570965792ebdee874e1129f7a6536facabeaeacac76ffecb"
+  },
+  "latest": {
+    "premarket": "2026-10-09:premarket:7b1d8d193b4ffa014647caa42a26bee26cf2d062667f7fbe4bd9a9e76fe845d7",
+    "close": "2026-10-08:close:1ac957febb2d0f617eebc212e7229a90ded7a20b76a0c3f712be0c2d94fee35f"
+  },
+  "companyDates": {
+    "002080": "2026-10-09",
+    "002119": "2026-10-09",
+    "300502": "2026-10-09",
+    "300308": "2026-10-09",
+    "300394": "2026-10-09",
+    "002487": "2026-09-24",
+    "002531": "2026-09-24",
+    "688112": "2026-09-24",
+    "688337": "2026-09-24",
+    "688628": "2026-09-24",
+    "300776": "2026-09-24",
+    "688147": "2026-09-24",
+    "603773": "2026-09-24",
+    "000678": "2026-09-24",
+    "605018": "2026-09-24",
+    "002896": "2026-09-24",
+    "601615": "2026-09-24",
+    "601398": "2026-09-24",
+    "600036": "2026-09-24",
+    "002074": "2026-10-08",
+    "300450": "2026-10-08",
+    "600657": "2026-10-09",
+    "001979": "2026-09-30",
+    "601668": "2026-09-30",
+    "600276": "2026-09-30",
+    "603259": "2026-09-30",
+    "002913": "2026-10-09",
+    "603727": "2026-09-30",
+    "688143": "2026-09-30",
+    "002815": "2026-10-08",
+    "603228": "2026-10-08",
+    "002463": "2026-10-08",
+    "002242": "2026-10-09",
+    "300408": "2026-10-08",
+    "000636": "2026-10-08",
+    "688008": "2026-10-08",
+    "603986": "2026-10-08",
+    "601872": "2026-10-09",
+    "600026": "2026-10-09"
+  }
+}
