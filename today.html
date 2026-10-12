@@ -1,89 +1,72 @@
-<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研盛 · 每日研究</title><style>*{box-sizing:border-box}body{margin:0;color:#252720;background:#f5f2ea;font-family:Microsoft YaHei,sans-serif;line-height:1.85}header{max-width:1250px;margin:auto;padding:22px 30px;border-bottom:2px solid #252720;display:flex;align-items:center;gap:48px}.brand{font-family:SimSun,serif;font-size:30px;letter-spacing:5px}nav{display:flex;gap:24px}a{color:inherit;text-decoration:none}nav a{font-size:14px}.frame{max-width:1250px;margin:auto;padding:30px;display:grid;grid-template-columns:210px minmax(0,850px);gap:50px}aside{position:sticky;top:24px;align-self:start;font-size:14px;color:#626358}.date{font-size:16px;font-weight:bold;color:#252720}.session{display:flex;margin:22px 0;border-bottom:1px solid #cfcac0}button{font:inherit;cursor:pointer;border:0;background:none;color:inherit;padding:12px 16px}button.active{background:#252720;color:#fff}.toc a{display:block;padding:10px 0}.label{font-size:12px;letter-spacing:1px;color:#66655c}h1{font-family:SimSun,serif;font-size:38px;line-height:1.45;margin:12px 0 30px}h2{font-size:25px;margin:42px 0 18px;padding-top:22px;border-top:1px solid #d8d3c8}h3{font-size:19px;margin:28px 0 12px}p{font-size:16px;margin:16px 0}.table-wrap{overflow-x:auto;margin:25px 0}table{border-collapse:collapse;width:100%;font-size:14px;min-width:560px}th{text-align:left;background:#e9e5dc}td,th{padding:13px;border-bottom:1px solid #d8d3c8;vertical-align:top}.note{font-size:12px;color:#66655c;margin-top:30px}.doc[hidden]{display:none}.scope{border-left:2px solid #9b382b;padding-left:12px;margin-top:30px;font-size:12px}footer{max-width:1250px;margin:35px auto;padding:20px 30px;border-top:1px solid #d8d3c8;font-size:12px;color:#66655c}main{min-width:0}@media(max-width:700px){header{padding:18px 20px;gap:20px;flex-wrap:wrap}.frame{padding:20px;display:block}aside{position:static}.toc{display:none}.session{margin:14px 0}.scope{margin:15px 0}h1{font-size:29px}h2{font-size:23px}.label{margin-top:20px}}.wide{max-width:1050px;margin:auto;padding:25px}select{max-width:100%;padding:10px}article table{display:block;overflow:auto;min-width:0;max-width:100%}a{text-decoration:underline}</style><style>.record{padding:16px 0;border-bottom:1px solid #d8d3c8}.record small{color:#66655c}.changes{border-bottom:1px solid #d8d3c8;margin-bottom:20px}.changes h3{font-size:15px;margin:12px 0}.changes p{font-size:14px}.update-notice{position:sticky;top:0;background:#eee9df;padding:8px 20px;z-index:3;font-size:14px}.update-notice[hidden]{display:none}.company-links{font-size:14px}</style><div class="update-notice" id="update-notice" hidden role="status"><span></span><button id="accept-update">更新</button></div><header><a class="brand" href="today.html">研盛</a><nav><a href="today.html">今日研究</a><a href="opportunities.html">机会跟踪</a><a href="companies.html">公司研究</a></nav></header><div class="frame"><aside><div class="date"></div><div class="session"><button data-session="premarket">盘前</button><button data-session="close">收盘</button></div><div class="toc"></div><p>过往研究</p><select aria-label="过往研究" onchange="if(this.value)location.href=this.value"><option value="">选择日期与时段</option><option value="report-2026-10-12-close-aa595c5fa9ec.html">2026-10-12 收盘 · 第1版</option><option value="report-2026-10-12-premarket-9d7bb104329d.html">2026-10-12 盘前 · 第1版</option><option value="report-2026-10-09-close-9a1a8515f845.html">2026-10-09 收盘 · 第1版</option><option value="report-2026-10-09-premarket-7b1d8d193b4f.html">2026-10-09 盘前 · 第1版</option><option value="report-2026-10-08-close-1ac957febb2d.html">2026-10-08 收盘 · 第2版</option><option value="report-2026-10-08-close-b3831bb01b4e.html">2026-10-08 收盘 · 第1版</option><option value="report-2026-10-08-premarket-46365e44227d.html">2026-10-08 盘前 · 第1版</option><option value="report-2026-09-30-close-982dfdb7abf0.html">2026-09-30 收盘 · 第5版</option><option value="report-2026-09-30-close-f70d31f56af0.html">2026-09-30 收盘 · 第4版</option><option value="report-2026-09-30-close-aab1a5de6b24.html">2026-09-30 收盘 · 第3版</option><option value="report-2026-09-30-close-213d868947d4.html">2026-09-30 收盘 · 第1版</option><option value="report-2026-09-30-premarket-1f24702a96e4.html">2026-09-30 盘前 · 第1版</option><option value="report-2026-09-29-close-8236c71edb06.html">2026-09-29 收盘 · 第1版</option><option value="report-2026-09-29-premarket-718f57ade145.html">2026-09-29 盘前 · 第1版</option><option value="report-2026-09-28-close-696e5f734ffa.html">2026-09-28 收盘 · 第1版</option><option value="report-2026-09-28-premarket-9ce7218153c8.html">2026-09-28 盘前 · 第1版</option><option value="report-2026-09-24-close-b13402acaaa1.html">2026-09-24 收盘 · 第1版</option><option value="report-2026-09-24-premarket-0c763a7dfbb4.html">2026-09-24 盘前 · 第1版</option></select></aside><main><section class="changes"><h3>2026-10-12 收盘变化</h3><p><a href="directions.html#battery">电池：宽度由强转弱，宁德均价失败，降低方向顺序。</a> / <a href="directions.html#pcb">PCB：经营利好未带动同行，原修复试探撤回。</a> / <a href="directions.html#optics">光通信：核心跌超6%，持续去风险，等待宽度与容量共同改善。</a> / <a href="directions.html#shipping">航运：中远启动失效转暂缓，招商维持暂缓。</a> / <a href="directions.html#ai-apps">AI应用：成交连续增加，宽度收窄，保留局部观察。</a> / <a href="directions.html#auto-testing">汽车测试：价格验证失败，保留研究观察</a></p></section><article class="doc" id="premarket" data-date="2026-10-12" hidden><div class="label">2026-10-12 / 盘前研究</div><h1>10月12日盘前：先验PCB业绩修复，再看电池与应用能否接续</h1>
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研盛 · 每日研究</title><style>*{box-sizing:border-box}body{margin:0;color:#252720;background:#f5f2ea;font-family:Microsoft YaHei,sans-serif;line-height:1.85}header{max-width:1250px;margin:auto;padding:22px 30px;border-bottom:2px solid #252720;display:flex;align-items:center;gap:48px}.brand{font-family:SimSun,serif;font-size:30px;letter-spacing:5px}nav{display:flex;gap:24px}a{color:inherit;text-decoration:none}nav a{font-size:14px}.frame{max-width:1250px;margin:auto;padding:30px;display:grid;grid-template-columns:210px minmax(0,850px);gap:50px}aside{position:sticky;top:24px;align-self:start;font-size:14px;color:#626358}.date{font-size:16px;font-weight:bold;color:#252720}.session{display:flex;margin:22px 0;border-bottom:1px solid #cfcac0}button{font:inherit;cursor:pointer;border:0;background:none;color:inherit;padding:12px 16px}button.active{background:#252720;color:#fff}.toc a{display:block;padding:10px 0}.label{font-size:12px;letter-spacing:1px;color:#66655c}h1{font-family:SimSun,serif;font-size:38px;line-height:1.45;margin:12px 0 30px}h2{font-size:25px;margin:42px 0 18px;padding-top:22px;border-top:1px solid #d8d3c8}h3{font-size:19px;margin:28px 0 12px}p{font-size:16px;margin:16px 0}.table-wrap{overflow-x:auto;margin:25px 0}table{border-collapse:collapse;width:100%;font-size:14px;min-width:560px}th{text-align:left;background:#e9e5dc}td,th{padding:13px;border-bottom:1px solid #d8d3c8;vertical-align:top}.note{font-size:12px;color:#66655c;margin-top:30px}.doc[hidden]{display:none}.scope{border-left:2px solid #9b382b;padding-left:12px;margin-top:30px;font-size:12px}footer{max-width:1250px;margin:35px auto;padding:20px 30px;border-top:1px solid #d8d3c8;font-size:12px;color:#66655c}main{min-width:0}@media(max-width:700px){header{padding:18px 20px;gap:20px;flex-wrap:wrap}.frame{padding:20px;display:block}aside{position:static}.toc{display:none}.session{margin:14px 0}.scope{margin:15px 0}h1{font-size:29px}h2{font-size:23px}.label{margin-top:20px}}.wide{max-width:1050px;margin:auto;padding:25px}select{max-width:100%;padding:10px}article table{display:block;overflow:auto;min-width:0;max-width:100%}a{text-decoration:underline}</style><style>.record{padding:16px 0;border-bottom:1px solid #d8d3c8}.record small{color:#66655c}.changes{border-bottom:1px solid #d8d3c8;margin-bottom:20px}.changes h3{font-size:15px;margin:12px 0}.changes p{font-size:14px}.update-notice{position:sticky;top:0;background:#eee9df;padding:8px 20px;z-index:3;font-size:14px}.update-notice[hidden]{display:none}.company-links{font-size:14px}</style><div class="update-notice" id="update-notice" hidden role="status"><span></span><button id="accept-update">更新</button></div><header><a class="brand" href="today.html">研盛</a><nav><a href="today.html">今日研究</a><a href="opportunities.html">机会跟踪</a><a href="companies.html">公司研究</a></nav></header><div class="frame"><aside><div class="date"></div><div class="session"><button data-session="premarket">盘前</button><button data-session="close">收盘</button></div><div class="toc"></div><p>过往研究</p><select aria-label="过往研究" onchange="if(this.value)location.href=this.value"><option value="">选择日期与时段</option><option value="report-2026-10-13-premarket-c53cc5f50f25.html">2026-10-13 盘前 · 第1版</option><option value="report-2026-10-12-close-aa595c5fa9ec.html">2026-10-12 收盘 · 第1版</option><option value="report-2026-10-12-premarket-9d7bb104329d.html">2026-10-12 盘前 · 第1版</option><option value="report-2026-10-09-close-9a1a8515f845.html">2026-10-09 收盘 · 第1版</option><option value="report-2026-10-09-premarket-7b1d8d193b4f.html">2026-10-09 盘前 · 第1版</option><option value="report-2026-10-08-close-1ac957febb2d.html">2026-10-08 收盘 · 第2版</option><option value="report-2026-10-08-close-b3831bb01b4e.html">2026-10-08 收盘 · 第1版</option><option value="report-2026-10-08-premarket-46365e44227d.html">2026-10-08 盘前 · 第1版</option><option value="report-2026-09-30-close-982dfdb7abf0.html">2026-09-30 收盘 · 第5版</option><option value="report-2026-09-30-close-f70d31f56af0.html">2026-09-30 收盘 · 第4版</option><option value="report-2026-09-30-close-aab1a5de6b24.html">2026-09-30 收盘 · 第3版</option><option value="report-2026-09-30-close-213d868947d4.html">2026-09-30 收盘 · 第1版</option><option value="report-2026-09-30-premarket-1f24702a96e4.html">2026-09-30 盘前 · 第1版</option><option value="report-2026-09-29-close-8236c71edb06.html">2026-09-29 收盘 · 第1版</option><option value="report-2026-09-29-premarket-718f57ade145.html">2026-09-29 盘前 · 第1版</option><option value="report-2026-09-28-close-696e5f734ffa.html">2026-09-28 收盘 · 第1版</option><option value="report-2026-09-28-premarket-9ce7218153c8.html">2026-09-28 盘前 · 第1版</option><option value="report-2026-09-24-close-b13402acaaa1.html">2026-09-24 收盘 · 第1版</option><option value="report-2026-09-24-premarket-0c763a7dfbb4.html">2026-09-24 盘前 · 第1版</option></select></aside><main><section class="changes"><h3>2026-10-13 盘前要点</h3><p><a href="directions.html#battery">电池与材料：整链分歧，材料单独验证</a> / <a href="directions.html#pcb">PCB：弱势未解除</a> / <a href="directions.html#optics">光通信：经营增量待价格响应</a> / <a href="directions.html#shipping">油运：原启动失效，维持暂缓</a> / <a href="directions.html#ai-apps">AI内容与传媒：局部延续，分化加大</a> / <a href="directions.html#cooling">数据中心冷源：新增业绩观察</a></p></section><article class="doc" id="premarket" data-date="2026-10-13" hidden><div class="label">2026-10-13 / 盘前研究</div><h1>10月13日盘前｜科技压力延续，先看传媒承接，再验证业绩增量</h1>
 <h2>市场背景</h2>
-<p>上周五美股和港股回升：标普500涨0.59%，纳指涨0.64%，道指涨0.83%；恒指涨1.79%，恒生科技涨3.06%。外围给了反弹条件，<strong>今天按修复验证处理，进攻仍需收敛。</strong> 周末最有分量的变化，是科技政策担忧开始被拆开讨论，同时PCB、液冷和玻纤出现了经营兑现的证据。</p>
-<p>A股周五也从早盘下挫中收回，沪指收3813.79点，创业板收3043.33点，但调整程度仍然不轻。截至周五，沪指五日跌1.92%，创业板五日跌7.47%、十日跌7.73%；半导体和元件行业五日分别跌12.77%、12.11%。周末信息改善了修复条件，科技连续调整的风险尚未解除。今天需要分辨的是：业绩能不能让资金重新接受科技股的价格，还是只有开盘的一阵回补。</p>
-<p>利率和能源仍是背景中的约束。美国10年期国债收益率周五收5.24%，比周四高2个基点。今早布伦特约105.1美元、WTI约92.2美元，较前一收盘上行不足1%。周末利雅得机场袭击增加了地区风险，但当前价格还没有给出油价再度急跳的信号；后续若能源价格继续抬升，科技估值和消费成本都会承受压力。</p>
-<p>国内政策偏暖，但要区分作用的时间。5500亿元地方债务结存限额中，3000亿元用于增强县区财政保障，2500亿元用于支持地方扩大有效投资；这是财政支撑，传到企业订单还需要过程。公募运作规则目前是征求意见，机构座谈会强调储备增量工具，对市场情绪有帮助，实际新增买盘仍要由行情验证。</p>
-<p>周五沪深成交约1.90万亿元，资金选择很不均匀。电池成交占比从9月28日的2.71%升到周五5.46%，高于近五日均值4.05%和十日均值3.34%；周五77涨30跌，连续性较清楚。文化传媒84涨1跌，成交占比由周四1.28%回到1.97%，是广泛修复，但只持续了一天。相反，半导体仍有149家下跌、40家上涨，元件只有5涨58跌。这里的成交占比采用同一组82个可比行业；元件包括PCB，不是纯PCB指数。<strong>电池是延续，传媒是新修复，科技硬件仍在消化卖压，三者不能用同一套参与方式。</strong></p>
+<p>隔夜外围没有给A股科技解围。美股道指上涨0.38%，标普500小跌0.06%，纳指下跌0.44%；真正需要注意的是费城半导体指数跌2.67%，光通信跌得更重：Lumentum跌9.78%、Coherent跌7.87%、应用光电跌8.17%。英伟达跌1.29%、博通跌1.88%、美光跌3.88%。今天仍以控制科技反弹风险为主，AI应用的相对强势可以跟踪，但进攻范围要缩。</p>
+<p>昨天A股的压力也没有缓解。上证跌0.43%，深成指跌2.03%，创业板跌2.61%，科创50跌2.10%；沪深成交1.54万亿元，比周五减少约3627亿元、缩减19.1%。上证跌幅较小，掩盖了成长股的弱势：通信设备只有3涨89跌，半导体21涨168跌，元件7涨56跌。近十个交易日，通信设备跌13.76%、半导体跌15.11%、元件跌14.96%；中际旭创、新易盛同期跌幅都超过21%。这已经是持续调整，昨天盘中冲高后再次回落，仍没有形成共同止跌。</p>
+<p>科技当前的主要矛盾，是经营增长还在，市场却在下调愿意为未来增长支付的价格。周末星球里较有代表性的解释，是海外AI需求仍强、国内主要在消化集中持仓；昨夜海外光通信也大跌，这个解释需要下调权重。现在要同时考虑AI投资回报与融资约束的讨论、供应链政策的不确定性，以及此前高增长预期的回吐，不能把国内科技的每次下跌都归为同一批资金的最后一轮卖出。</p>
+<p>最新的市场出清交流仍偏向“绝对收益资金止损、转向防御”的解释，认为本轮去杠杆比此前更慢。这个视角解释了为什么机构重仓方向持续阴跌，而局部题材还能活跃；但交流中“已卖掉七八成”的估计，缺少可核对的持仓底数。现在不能据此认定卖压接近结束。反过来，新的利润预告和海外同类股下跌同时出现，更说明今天应先检验价格能否接受经营增长，再判断反弹持续性。</p>
+<p>其中，政策风险有不同层次。美国国际贸易委员会已对垂直供电系统立案调查，涉及工业富联、立讯等产业链公司，尚未作出侵权裁决；光模块“3.2T起限制、65%物料门槛”则仍是外资研究和会议讨论，不能当成已经执行的统一禁令。前者增加了供电与整机链的法律风险，后者影响长期供应链和估值预期。与此同时，新的盈利预告仍在增长。今天最有用的检验，是这些经营增量能否让核心股摆脱冲高回落。</p>
+<p>消费电子的压力又不同。Counterpoint初步估计，全球三季度智能手机出货同比下降20%，存储涨价推高整机成本，厂商提价进一步压制大众市场需求。这会影响手机零组件订单，不能因为估值回落就把消费电子统一当作防御方向；AI数据中心扩产与手机需求承压，可以同时存在。</p>
+<p>资金选择已经收窄。传媒成交从10月8日的205.92亿元，增至周五356.60亿元、昨天470.08亿元；但上涨比例从周五约99%降到昨天约69%。电池昨天成交815.21亿元，低于周五990.04亿元，上涨比例从约72%降至约19%。在固定可比行业中，电池成交占比略升，是其他方向缩量更快，不能据此恢复“电池持续回流”的判断。传媒有连续成交扩张，电池出现明显分歧，硬件仍在退潮；这三类不能用同一种参与方式。</p>
+<p>港股也有相似分化：恒指昨天涨0.25%，恒生科技跌0.67%。今晨离岸人民币在6.69附近，美油在93美元附近；美国债券市场处于哥伦布日假期，缺少正常现券收盘作为新的利率判断。今天方向排序主要服从科技卖压、局部资金延续和公司业绩变化。</p>
 <h2>题材与驱动</h2>
-<h3>PCB：业绩兑现与政策范围澄清，是今天优先验证的组合</h3>
-<p>周末星球里，PCB讨论出现了一个值得跟进的变化：从笼统担心“制裁”，转向区分军用采购、商用供应链和公司实际经营。美国PCB行业协会9月的声明，围绕国防采购供应链和2027年执行期限展开，并非新公布的商用PCB全面禁令。FCC于10月8日公布的10月29日暂定议程，也没有市场传闻中的光模块进口禁令；议程仍涉及测试认证机构和国际电信监管，政策风险并没有全部消失。</p>
-<p>这意味着科技股此前承受的几类压力，需要分别定价。军采规定、光通信政策传闻和电源专利调查，不是同一种订单冲击。立讯披露337调查所涉产品仍在客户验证阶段、尚未量产，也说明“被列入调查”与“当前收入已经受损”之间还有距离。与其把这些消息统一理解成AI需求下降，今天更应该看有实绩的公司能否先修复。</p>
-<p>景旺电子是这条线的核心观察对象。公司预告第三季度单季收入61.20—69.80亿元，归母净利润9.12—10.89亿元，利润同比增长205.46%—264.74%、环比增长147.20%—195.18%。增长来源也比较明确：高速通信与AI数据基础设施的高性能PCB量产出货提速，加上通用产品成本价格传导、产品结构优化和效率改善。板子的技术升级与订单交付，已经开始落到利润上。</p>
-<p>星球另一个争论是传统PCB涨价：一派认为AI占用高端材料与产能，挤压普通板供应，涨价可能持续；另一派担心涨价主要来自供给收缩，客户接受度有限。景旺公告提供了成本价格传导的证据，但世运四季度涨价幅度、未来净利率等调研预测，还不能当作整个行业的盈利结果。覆铜板涨价首先增加板厂成本，能否转给客户、有没有稳定订单，决定哪家公司真正保住利润。</p>
-<p>选择景旺，是因为本次公告把量产、订单、良率与盈利连在了一起。沪电股份同样覆盖高端通信和汽车PCB，深南电路还包含封装基板、电子装联，都是同行验证对象；今天并不据此判断景旺长期一定优于两者。周五景旺跌0.93%，五日跌6.34%，同期沪电五日跌9.48%、深南跌11.98%。景旺的相对抗跌和新增业绩，让它更适合检验这轮修复是否成立。</p>
-<p>同属经营兑现线，鸿富瀚预告前三季度净利润1.70—2.00亿元，液冷板整柜模组量产交付成为核心增量；中国巨石预告前三季度利润51.36—53.93亿元，玻纤下游需求与量价改善得到确认。不过，两者五日分别跌15.99%、10.43%，价格结构比景旺更弱，今天先看消息响应，不把它们直接排成同等级参与对象。景旺属于公告驱动的修复观察，这三家公司都没有因此完成二波确认。</p>
-<h3>电池：保留方向优先级，观察重点转向容量股</h3>
-<p>电池有已经发生的多日资金响应，优先级应保留，但内部选择要变。国轩高科、先导智能五日分别涨13.64%、14.39%，周五却分别跌2.84%、2.29%，冲高后的回落暴露了分歧；宁德时代周五涨3.84%，五日仅涨1.45%，成为当天较强的容量观察对象。今天先看这种接力能否延续，不继续追逐前面涨得最多的弹性股。</p>
-<p>宁德的业务落在动力与储能电池交付，先导则取决于客户扩产和工艺设备投资，盈利传导不同。中欧磋商就混动汽车贸易达成谅解、继续推进电动汽车价格承诺程序，有助于降低出口链的部分不确定性；正式成果清单没有给出可直接代入电池盈利的出口配额。整车出口、欧洲本地生产、电池供应份额，也不宜按同一个比例下修。</p>
-<p>电新研究对本轮上涨的解释，更多是三季度需求与此前悲观预期之间的修复。反证也在：摩根士丹利对宁德维持增持，却下调了目标价和2027年盈利预测；固态纪要仍在讨论材料应力、中试和模组压力。今天保留电池连续性的判断，依据是成交、宽度和核心股表现，尚没有把“固态将很快量产”作为新的盈利前提。</p>
-<h3>AI应用：已有第一天扩散，第二天看谁能留下来</h3>
-<p>周五文化传媒涨5.78%，软件开发涨4.00%，上涨面明显扩散，说明应用方向已经得到价格响应。周末讨论进一步从“模型更强”转向视频内容、版权、分发和安全需求。最值得比较的，是谁拥有真实的内容、渠道或客户，能把技术改善变成付费收入。</p>
-<p>芒果超媒承接的是长视频内容分发、会员和广告变现，博纳影业则偏电影投资、发行与影院。前者看内容供给能否带动会员和广告，后者看项目票房及收益分配。AI制作效率提高，最终仍要经过作品上线和用户付费。博纳关于《三星堆：未来往事》的既有公告已明确，票房收益存在不确定性；周末反复讨论定档，不是新的盈利披露。</p>
-<p>芒果周五涨19.98%，五日涨21.05%，已经包含明显的题材预期。今天要看芒果与博纳能否共同保住开盘后的涨幅、传媒多数公司能否继续上涨。只剩一只先锋冲高、同组退下来，就降低这一方向的顺序。它目前是新一轮应用行情的延续观察，还不是完成洗盘后的二波。</p>
-<p>另外新增一条政策观察：汽车研发测试。四部门10月10日公开征求加强创新设计和测试验证管理的意见，中国汽研具备汽车公告、环保、CCC及研发验证服务能力，业务与测试要求的联系直接。它周五收14.35元，五日已涨10.05%；新政策发生在收盘后，今天关注的是新增需求预期能否带来进一步响应。检测范围、订单转化和同行扩散仍需落实，暂不列为参与或二波确认。</p>
+<h3>传媒：连续两天有成交，第三天看分化后的承接</h3>
+<p>传媒仍放在局部机会的第一观察顺序。它比硬件多出的证据，是周五普涨后，昨天成交继续增加，芒果超媒涨5.04%、博纳影业涨10.04%，光线传媒涨5.41%。但芒果近五个交易日已涨28.78%，博纳涨20.60%；板块上涨面同时收窄，今天再追一个高开，承担的风险比第一天更大。</p>
+<p>星球里的讨论正在从“AI降低制作成本”往商业化细节走。AI剧专家纪要强调，制作报价之外还有投流、平台分账和补贴，播放量与制作收入不能直接转成上市公司利润。最新传媒三季度前瞻又把芒果会员表现列为压力项，AI内容的利润贡献更多放到后续季度。这使今天的机会定位更清楚：先交易已出现的市场选择，盈利上修还需要产品与财报证明。</p>
+<p>三只公司的角色不同。芒果有长内容、会员和广告平台，适合观察AI内容叙事能否由题材热度转为平台承接；博纳有影视制作和院线业务，价格弹性更强，但档期热度与AI商业化是两条线；光线以影视制作、发行和内容IP为主，昨日成交量约为前五日均量的3.9倍，可作为资金是否向同组扩散的比较对象。今天优先看芒果与光线的回落承接，博纳作为情绪先锋，不把涨停本身当成更好的买点。</p>
+<h3>AI基础设施：新标准有增量，冷源、测试和光连接分别验证</h3>
+<p>英伟达已发布新的开放架构资料：Vera Rubin机柜与计算托盘设计进入OCP体系，MGX 1.2包括机柜级盲插液冷和新的供电接口；同时与思科推进下一代USFP可插拔光模块规格。它带来的产业变化，是高密度算力对供电、散热、连接规格提出更具体的要求，设备厂商需要围绕新规格做产品和客户验证。标准发布还不能直接确定某家A股公司的订单份额。</p>
+<p>今天新增重点研究冰轮环境，来由是经营兑现，而不是把它突然放进二波名单。公司预告前三季度归母利润5.56—6.42亿元，同比增长30%—50%，主要增长来自顿汉布什海外数据中心冷源装备。同期投资者交流进一步明确，产品在数据中心液冷系统中主要承担一次侧冷源和热交换，公司同时有干冷器、自然冷却等产品。</p>
+<p>但“液冷扩张”并不等于传统冷水机需求同比例扩张。英伟达此前已说明，Rubin采用最高45℃供液，在适宜气候中可以通过干冷器减少机械制冷。产品组合和项目地点会改变受益幅度。冰轮今天的研究依据是已经披露的利润增长，后续还要核对自然冷却产品与传统冷水机各自的订单，不能直接把新架构的全部散热需求算到公司头上。</p>
+<p>与英维克比较，冰轮此次更直接的依据是海外冷源利润已进入业绩预告；英维克覆盖冷源、冷却液分配单元（CDU）、冷板、快接等环节，适合检验市场是否接受整条温控链的新变化。昨天冰轮涨2.79%，英维克却跌4.01%，还谈不上板块共振。冰轮近十日仍跌15.73%，周五刚创近期低点，昨天只是反弹。今日先观察业绩消息能否带来第二天承接，把它定义为业绩修复，暂不升级二波。</p>
+<p>联讯仪器和杰普特提供另一组需求验证。联讯前三季度归母利润预告19—21亿元，增长原因是通信测试仪器与光电子器件测试设备销售增加：高速光通信扩产，需要测试设备来保证性能和良率。杰普特公告披露，自年初至公告日累计获得客户V约11.10亿元光连接产品订单，涉及MPO/MMC光纤跳线和连接盒，属于无源连接环节。这是年度累计订单，不是昨晚单独新增11亿元。</p>
+<p>源杰科技的预告进一步提供了上游证据：第三季度单季收入6.5—7亿元、归母利润4.03—4.53亿元，主要来自数据中心CW激光器出货增长、较高毛利率和费用率下降。它与联讯的测试设备、杰普特的无源连接不是同一道工序，但经营信息指向同一件事——光通信需求没有因股价下跌就自动消失。今天更值得看的是，这些好消息能否改变整个方向的价格反应。</p>
+<p>星球最新通信交流把无源器件排在模块和光芯片之前，理由是光纤连接需求延续、路线变化带来连接数量增加；同时担忧模块在后续年度的竞争格局和利润率。这个排序有研究价值，但不能将所有无源公司共享同一份订单，也不能把尚未落地的政策讨论当成确定的相对收益。杰普特已有实际累计订单，是本次观察的具体载体；下一步看交付能否转成收入，以及价格是否获得同行支持。</p>
+<p>新的业绩和订单披露属于盘后增量，今天才检验价格响应。原有价格结构仍弱：联讯昨天跌8.13%，近十日跌23.42%；杰普特昨天跌6.42%，近十日跌16.62%。尤其昨夜海外光器件普跌，今天先看低开后是否能收回、同行是否跟随。联讯与杰普特只列业绩或订单响应观察，不因为“无源”“测试”标签就认定能独立走强。中际旭创、新易盛仍用作光通信风险温度计。</p>
+<h3>电池材料：新宙邦利润修复，不能替代整条链的重新确认</h3>
+<p>新宙邦预告前三季度归母利润15.3—15.8亿元，同比增长104.53%—111.22%，扣非利润与归母接近。增长来自电池化学品产销量提高、销售价格修复，以及电子信息化学品和有机氟业务增长；福建海德福、湖南福邦第三季度进入持续盈利状态。它的电解液、添加剂和含氟材料业务，与宁德的电芯制造、先导的设备交付不是同一个盈利环节。此次应先用天赐材料这个电解液同行作比较，而非把利润增长外推给所有电池股。</p>
+<p>价格并未提前给出确认。新宙邦昨天跌7.22%，近十日跌17.80%；天赐昨天跌2.63%，但近五日仍涨14.01%，两者所处的价格阶段不同。新宙邦的新预告提高了研究优先级，今天要看公司自身修复和同行承接能否同时出现；宁德昨天虽然微涨，盘中及收盘均未满足原均价条件，电池方向的整体顺序继续低于传媒。</p>
+<p>汽车政策还需拆开。财政部明确，新能源汽车出口退税率从13%降至9%，生效日是2027年4月1日，影响未来出口定价与利润分配；商务部则澄清，混动车贸易安排在2025年进口基数上向上安排，并非已确定按今年出口量减半。退税清单还包含非公路电动自卸车等产品，“工程机械全部不受影响”也过于宽泛。今天保留材料公司自身的业绩观察，整车与设备不据此统一升降级。</p>
 <h2>今日计划与观察名单</h2>
-<p>今天先检验PCB业绩修复，再以电池的连续性作对照，传媒检验第二天扩散。条件里的“当日均价”统一指累计成交金额除以累计成交股数；11:30和收盘各复核一次。11:30检验是否保留试探选择，收盘复核能否继续保留；两次都看消息兑现后的承接与同行响应。</p>
+<p>今天采用分歧后的回落观察，不追传媒连续上涨后的开盘冲动，也不在光通信继续新低时押整体反转。昨天景旺的经营利好没有让PCB同行共同站稳，宁德的容量接力也失败；传媒个股承接较好，但午间板块宽度没有完整核实，尚不足以把一种参与模式认定为稳定有效。</p>
 <table>
 <thead>
 <tr>
-<th>对象</th>
-<th>当前定位</th>
-<th>今天怎样验证</th>
-<th>失败后怎样处理</th>
+<th>顺序与用途</th>
+<th>公司</th>
+<th>今天观察什么</th>
+<th>什么结果改变安排</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>景旺电子；沪电、深南作同行对照</td>
-<td>业绩驱动修复，重点研究</td>
-<td>景旺11:30及收盘同时在开盘价和当日均价之上；沪电、深南至少一只也满足这两项，才保留回落后小仓试探的选择</td>
-<td>景旺低于开盘价或均价，或两只同行都未跟随，降为经营观察，不新增试探</td>
+<td>优先，局部小额试探</td>
+<td>芒果超媒、光线传媒；博纳作情绪对照</td>
+<td>第一次回落后能否重新站稳当日均价；午间及收盘同时高于开盘价、均价，传媒收盘上涨比例不低于昨天57/83</td>
+<td>两只观察股有一只不能满足价格条件，或板块继续明显收窄，当天不扩大试探；若只剩博纳强，按单股情绪处理</td>
 </tr>
 <tr>
-<td>宁德时代；国轩、先导作接力对照</td>
-<td>电池连续性与容量承接</td>
-<td>宁德11:30及收盘均在开盘价、当日均价之上，且电池上涨家数多于下跌家数</td>
-<td>容量股和宽度同时转弱，降低电池顺序；原国轩、先导失败条件不恢复</td>
+<td>第二，业绩修复观察</td>
+<td>冰轮环境；英维克作温控同行</td>
+<td>冰轮午间、收盘同时高于开盘价和均价，收盘仍高于34.99元；英维克收盘也高于开盘价和均价</td>
+<td>冰轮盘中失33.55元，撤回本次承接假设；两股共同转强才提高冷却方向顺序，仍不直接确认二波</td>
 </tr>
 <tr>
-<td>芒果超媒、博纳影业</td>
-<td>应用第二天延续观察</td>
-<td>两股11:30及收盘均保持开盘价、当日均价之上，且文化传媒上涨家数多于下跌家数</td>
-<td>只有单股强，不提高主线判断，不追早盘加速</td>
+<td>第三，利润兑现观察</td>
+<td>新宙邦、天赐材料</td>
+<td>新宙邦午间及收盘高于开盘价和均价，收盘高于60.11元；天赐收盘也满足开盘价和均价条件</td>
+<td>新宙邦盘中失59.45元，撤回当天修复假设；同行转弱则只保留公司研究，不恢复整链参与</td>
 </tr>
 <tr>
-<td>中国汽研</td>
-<td>新政策研究观察</td>
-<td>11:30及收盘比较开盘价、当日均价；后续再核测试订单与同题材响应</td>
-<td>价格响应不足，维持线索，不升级参与</td>
-</tr>
-<tr>
-<td>中远海能</td>
-<td>二波候选观察</td>
-<td>到11:30检查23.08元突破后的回落与均价承接，保留21.70元启动边界；同时看油运核心和行业扩散</td>
-<td>失21.70元撤回启动；放量失20.21元结束本轮，未通过适用审查不确认参与</td>
+<td>风险温度计</td>
+<td>中际旭创、新易盛、联讯仪器、杰普特</td>
+<td>光通信核心是否停止创新低；联讯、杰普特收盘能否共同站上开盘价与均价</td>
+<td>两只光模块股任一失昨日低点723元、347.57元，科技环境继续按风险未解除处理；仅一只公告股强不恢复硬件</td>
 </tr>
 </tbody>
 </table>
-<p>市场层面，今天新增一项共同验证：半导体与元件在11:30及收盘都由多数下跌转为多数上涨，同时景旺、沪电都保持开盘价与当日均价之上。满足，才把科技从局部修复提高到扩散修复；只见指数上涨、行业宽度仍弱，继续按局部行情处理。</p>
-<p>风险预算分三种情况：<strong>强情景</strong>为科技共同验证成立，新增试探最多使用常规进攻预算的三分之一；<strong>中情景</strong>为景旺的公司条件成立而板块仍分化，最多六分之一，重点留给回落后的验证；<strong>弱情景</strong>为景旺、沪电均落到当日均价下方，且半导体、元件都仍是多数公司下跌，停止新增试探。这是今天的执行上限，未满足条件不提前使用。</p>
-<p>二波当前分组保持清楚：<strong>确认暂无；候选观察只有中远海能；招商轮船仍暂缓参与。</strong> 中远周五上午的均价条件没有通过，下午突破是后来出现的新证据，今天需要重新验证回落；招商周五失守21.15元后虽然恢复，原启动失败仍保留。其余暂缓和退出对象留在机会跟踪页，今天没有因周末消息恢复确认。景旺、鸿富瀚、巨石是经营与修复观察，芒果是应用延续，汽车测试是新政策线索，分别处理。</p></article><article class="doc" id="close" data-date="2026-10-12" hidden><div class="label">2026-10-12 / 收盘更新</div><h1>10月12日收盘：科技反弹失效，传媒延续但机会收缩</h1>
-<h2>缩量回落，风险重新加重</h2>
-<p>今天市场偏弱，周五午后的反弹没有延续。沪指跌0.43%，深成指跌2.03%，创业板跌2.61%，科创50跌2.10%；创业板收2963.82点，接近日内最低点2962.24点。银行上涨缓冲了沪指跌幅，科技股的持有体验明显更差。沪深成交约1.538万亿元，比周五减少约3627亿元、19.1%。买盘收缩叠加科技核心股继续走低，眼下应降低试探强度。</p>
-<p>科技的问题在于，经营利好仍然带不动同行和股价。早盘把景旺电子的业绩作为PCB修复的验证对象，景旺一度升至103.02元，最终收96.09元、跌0.92%；沪电跌2.38%，深南跌5.61%。元件行业只有7只上涨、56只下跌，连续三个交易日多数承压。景旺的冲高回落说明业绩带来了短暂响应，却没能扭转板块卖压，早盘设想的“业绩先带动核心、再扩散到同行”没有走通。</p>
-<p>光通信的调整更重：中际旭创跌6.41%，新易盛跌6.10%，通信设备行业3涨89跌；半导体21涨168跌，五日累计跌10.98%、十日跌15.11%。这已经是持续去风险，不能按一天的消息波动处理。</p>
-<p>今天星球中的分歧也很鲜明：一边继续讨论光器件供给紧张、PCB产品升级和订单兑现，另一边转向机构筹码出清及高估值资产的买盘不足。沪电的研究材料甚至上调了盈利预测，股价仍然下跌，进一步削弱了“当天经营突然恶化”作为统一解释的说服力。当前更应优先看估值与交易压力：上涨预期需要新的买盘接力，但成交收缩、反弹失败，持仓压力继续压过经营利好。券商关于保险及固收+卖出的测算只能作为解释线索，不能据此认定今天是谁卖了多少。</p>
-<h2>盘前重点：应用延续，电池降温</h2>
-<p><strong>传媒是今天少数延续了周五强势的方向。</strong> 行业成交从356.60亿元增至470.08亿元，在固定行业样本中的份额从1.97%升至3.23%；这是实际成交增加。上涨面却从84涨1跌缩至57涨26跌，热度仍在，选择已开始收缩。</p>
-<p>早盘选择芒果超媒与博纳影业，分别看已上线内容的平台承接、待上映作品的事件热度。今天芒果涨5.04%，博纳涨停，两者11:30与收盘均站在开盘价和当日成交均价之上，个股价格验证成立。星球讨论继续向AI长内容、海外短剧分发及制作效率扩展；这些线索支撑应用研究的优先级，但远期收入和目标估值并未兑现。下一步保留芒果作为容量观察，博纳作为事件观察；若上涨只剩少数封板股、芒果失去均价承接，就收窄这一方向的试探，不能把涨停数量当作全面扩散。</p>
-<p><strong>电池从连续强势转为分化，宁德的抗跌没有带动行业。</strong> 行业从周五77涨30跌变为20涨87跌，成交从990.04亿元降至815.21亿元。成交份额小幅提高，是全市场缩量更快的结果，不足以称作持续流入。宁德涨0.21%、先导涨3.13%，但宁德午间及收盘都低于成交均价，收盘也低于开盘价，早盘的容量承接条件失败。</p>
-<p>宁德的新研究材料同时提高出货预期、下调单位盈利及年度盈利预测，提示后续要比较“卖得更多”与“每单位赚多少”，不能把排产增长直接换成利润上修。今天行业宽度转弱，先导的上涨暂作个股差异观察，电池整体参与优先级下调。中国汽研同样冲高回落，午间和收盘均未站回开盘价与均价，早盘新增线索继续留在研究观察。</p>
-<p>风电是新的相对强势方向：天顺涨停，大金涨7.66%，威力、双一均有较大涨幅，行业24涨8跌。不过行业成交157.94亿元，仍低于周五166.53亿元，目前只能判断局部修复。星球中的深远海建设规模、订单及政策时点多为预测，尚不足以把今天上涨归为已落地的新订单驱动；先比较后续成交与多股承接能否延续，再决定是否替换旧重点。</p>
-<h2>二波降级，下一步先看承接</h2>
-<p><strong>降级至暂缓：中远海能。</strong> 原计划观察23.08元突破后的回落承接，并保留21.70元启动边界。今天10:07首次跌破21.70元，盘中恢复后仍收21.65元、跌7.83%。招商轮船跌9.38%，航运行业11涨24跌，个股结构与同行共振同时转弱，撤回这次启动观察。中远20.21元最终边界尚未触发，保留原结构历史；即使下一次收回21.70元，也需要新承接与同行改善重新评估。</p>
-<p>当前二波为确认0只、候选0只、暂缓5只、退出5只。招商仍为暂缓，今天最低19.88元，未触发19.78元最终边界；九阳仍处加速阶段，没有新的整理结构，不因继续涨停转为二波确认。旧退出对象不恢复，本次没有新增确认。</p>
-<p>下一次开盘，先看创业板能否远离今天低点，以及科技行业上涨面和容量股是否共同改善。PCB需景旺、沪电重新站稳开盘价与当日均价；只有一只反弹，仍不恢复早盘试探。传媒保留优先观察，但要看芒果承接与同行宽度，避免追逐缩量市场中的最后几只强股。电池等待宁德容量承接和行业多数转强共同出现；航运则先处理失效，暂不继续押注原突破。</p></article></main></div><footer>研盛 · 每日研究</footer><script>
+<p>均价条件检验的是开盘拉升后有没有持续买盘；33.55元和59.45元分别是冰轮、新宙邦昨日的承接低点，只用于这次业绩修复的撤回判断。守住这些价格，不代表完成了二波整理。表中的午间统一指11:30，收盘指15:00；盘中撤回一旦发生，后续收回另行评估，不抹去原结果。</p>
+<p>风险预算随环境变化：若光通信再创新低、传媒只剩先锋强，当天不开新增试探；若传媒回落后保持承接、但科技仍弱，仅在传媒使用不超过常规单笔计划四分之一的试探规模；若传媒宽度保持，元件和半导体收盘均恢复多数上涨，景旺与沪电也共同站上开盘价和均价，再考虑将试探上限提高到常规单笔计划的一半。以上是新增试探的相对规模，今天不按全面反转配置。</p>
+<p>二波当前为确认0只、候选观察0只、暂缓参与5只、已退出5只。中远海能昨天已失21.70元启动条件，维持暂缓；招商轮船同样没有恢复。冰轮、联讯、新宙邦仍处于跌后修复或调整阶段，芒果、博纳处于快速上涨后的分化验证，均未形成新的二波确认。今天先验证这些新对象能否留下承接，二波分类见机会跟踪。</p></article><article class="doc" id="close" data-date="2026-10-12" hidden><h2>收盘更新 · 2026-10-12</h2><p><a href="report-2026-10-12-close-aa595c5fa9ec.html">阅读该日收盘研究</a></p></article></main></div><footer>研盛 · 每日研究</footer><script>
     const docs=[...document.querySelectorAll('article.doc')];
     function show(s){
       if(s==='pre')s='premarket';
@@ -104,4 +87,4 @@
     });
     function restore(){show(new URLSearchParams(location.search).get('session'));}
     window.addEventListener('popstate',restore);restore();
-    </script><script>window.YANSHENG_RELEASE="5cbf287cec79b260c62ea6ca";window.YANSHENG_HISTORICAL=false;</script><script>window.YANSHENG_BUNDLE_SHA="3ca4cea96f15deab317cf93c0d06ac9bbefc5635b98d0160c958e2bc868aef67";</script><script src="workbench.js"></script></html>
+    </script><script>window.YANSHENG_RELEASE="0f1fdae8ee021ce54873243d";window.YANSHENG_HISTORICAL=false;</script><script>window.YANSHENG_BUNDLE_SHA="991a1efa63cdd77f5c31c3435205c7e28f4cc6dea7aa036157ff6b6176cb487d";</script><script src="workbench.js"></script></html>
