@@ -230,20 +230,27 @@
       "identity": "审阅版",
       "sha256": "517dbf70bcf37371068594ececfc9d0baa8ccff0cd803fb70b02c5e6967653b0",
       "page": "report-2026-10-22-premarket-517dbf70bcf3.html"
+    },
+    {
+      "date": "2026-10-22",
+      "session": "close",
+      "identity": "审阅版",
+      "sha256": "39483ad65cbcaa29fcf77451b7daafae0389477077b7a9409329401c522288d1",
+      "page": "report-2026-10-22-close-39483ad65cbc.html"
     }
   ],
   "poolDate": "2026-10-22",
   "schema": "yansheng-publication-v2",
-  "release_id": "3d2b4f039062a2afcfd33d94",
+  "release_id": "688954718d90a06f07b976f8",
   "published_at": null,
-  "prepared_at": "2026-10-21T23:16:57.475312+00:00",
+  "prepared_at": "2026-10-22T12:36:17.941175+00:00",
   "bundle": {
-    "path": "release-3d2b4f039062a2afcfd33d94.json",
-    "sha256": "ecad2680a5ab37f95305f8063ffea7ab942b57b97c52b8c68ccb9b88fb9d3ca5"
+    "path": "release-688954718d90a06f07b976f8.json",
+    "sha256": "042369785b7d78cead3bd680334c37d69b330ba9b9d83099cd21b4fbaeaf3a74"
   },
   "latest": {
     "premarket": "2026-10-22:premarket:517dbf70bcf37371068594ececfc9d0baa8ccff0cd803fb70b02c5e6967653b0",
-    "close": "2026-10-21:close:327eee5229ac794f68c6bd210973f9e856b4be51ac1db9d705781145df658f99"
+    "close": "2026-10-22:close:39483ad65cbcaa29fcf77451b7daafae0389477077b7a9409329401c522288d1"
   },
   "companyDates": {
     "002080": "2026-10-22",
@@ -332,6 +339,7 @@
     "688200": "2026-10-22",
     "688313": "2026-10-22",
     "002353": "2026-10-22",
-    "300115": "2026-10-22"
+    "300115": "2026-10-22",
+    "600316": "2026-10-22"
   }
 }
