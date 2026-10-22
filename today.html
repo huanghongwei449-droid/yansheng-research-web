@@ -1,121 +1,63 @@
-<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研盛 · 每日研究</title><style>*{box-sizing:border-box}body{margin:0;color:#252720;background:#f5f2ea;font-family:Microsoft YaHei,sans-serif;line-height:1.85}header{max-width:1250px;margin:auto;padding:22px 30px;border-bottom:2px solid #252720;display:flex;align-items:center;gap:48px}.brand{font-family:SimSun,serif;font-size:30px;letter-spacing:5px}nav{display:flex;gap:24px}a{color:inherit;text-decoration:none}nav a{font-size:14px}.frame{max-width:1250px;margin:auto;padding:30px;display:grid;grid-template-columns:210px minmax(0,850px);gap:50px}aside{position:sticky;top:24px;align-self:start;font-size:14px;color:#626358}.date{font-size:16px;font-weight:bold;color:#252720}.session{display:flex;margin:22px 0;border-bottom:1px solid #cfcac0}button{font:inherit;cursor:pointer;border:0;background:none;color:inherit;padding:12px 16px}button.active{background:#252720;color:#fff}.toc a{display:block;padding:10px 0}.label{font-size:12px;letter-spacing:1px;color:#66655c}h1{font-family:SimSun,serif;font-size:38px;line-height:1.45;margin:12px 0 30px}h2{font-size:25px;margin:42px 0 18px;padding-top:22px;border-top:1px solid #d8d3c8}h3{font-size:19px;margin:28px 0 12px}p{font-size:16px;margin:16px 0}.table-wrap{overflow-x:auto;margin:25px 0}table{border-collapse:collapse;width:100%;font-size:14px;min-width:560px}th{text-align:left;background:#e9e5dc}td,th{padding:13px;border-bottom:1px solid #d8d3c8;vertical-align:top}.note{font-size:12px;color:#66655c;margin-top:30px}.doc[hidden]{display:none}.scope{border-left:2px solid #9b382b;padding-left:12px;margin-top:30px;font-size:12px}footer{max-width:1250px;margin:35px auto;padding:20px 30px;border-top:1px solid #d8d3c8;font-size:12px;color:#66655c}main{min-width:0}@media(max-width:700px){header{padding:18px 20px;gap:20px;flex-wrap:wrap}.frame{padding:20px;display:block}aside{position:static}.toc{display:none}.session{margin:14px 0}.scope{margin:15px 0}h1{font-size:29px}h2{font-size:23px}.label{margin-top:20px}}.wide{max-width:1050px;margin:auto;padding:25px}select{max-width:100%;padding:10px}article table{display:block;overflow:auto;min-width:0;max-width:100%}a{text-decoration:underline}</style><style>.record{padding:16px 0;border-bottom:1px solid #d8d3c8}.record small{color:#66655c}.changes{border-bottom:1px solid #d8d3c8;margin-bottom:20px}.changes h3{font-size:15px;margin:12px 0}.changes p{font-size:14px}.update-notice{position:sticky;top:0;background:#eee9df;padding:8px 20px;z-index:3;font-size:14px}.update-notice[hidden]{display:none}.company-links{font-size:14px}</style><div class="update-notice" id="update-notice" hidden role="status"><span></span><button id="accept-update">更新</button></div><header><a class="brand" href="today.html">研盛</a><nav><a href="today.html">今日研究</a><a href="opportunities.html">机会跟踪</a><a href="companies.html">公司研究</a></nav></header><div class="frame"><aside><div class="date"></div><div class="session"><button data-session="premarket">盘前</button><button data-session="close">收盘</button></div><div class="toc"></div><p>过往研究</p><select aria-label="过往研究" onchange="if(this.value)location.href=this.value"><option value="">选择日期与时段</option><option value="report-2026-10-22-close-39483ad65cbc.html">2026-10-22 收盘 · 第1版</option><option value="report-2026-10-22-premarket-517dbf70bcf3.html">2026-10-22 盘前 · 第1版</option><option value="report-2026-10-21-close-327eee5229ac.html">2026-10-21 收盘 · 第1版</option><option value="report-2026-10-21-premarket-44f6f06be01e.html">2026-10-21 盘前 · 第1版</option><option value="report-2026-10-20-close-03ca61ba13ff.html">2026-10-20 收盘 · 第1版</option><option value="report-2026-10-20-premarket-3ccbf61ec5eb.html">2026-10-20 盘前 · 第1版</option><option value="report-2026-10-19-close-37028a36abc0.html">2026-10-19 收盘 · 第1版</option><option value="report-2026-10-19-premarket-e110a5d85655.html">2026-10-19 盘前 · 第1版</option><option value="report-2026-10-16-close-df3ff733d153.html">2026-10-16 收盘 · 第1版</option><option value="report-2026-10-16-premarket-18503375ad6a.html">2026-10-16 盘前 · 第1版</option><option value="report-2026-10-15-close-94b8d7393134.html">2026-10-15 收盘 · 第1版</option><option value="report-2026-10-15-premarket-8a438db13651.html">2026-10-15 盘前 · 第1版</option><option value="report-2026-10-14-close-758d34ef03d5.html">2026-10-14 收盘 · 第1版</option><option value="report-2026-10-14-premarket-54e88333727d.html">2026-10-14 盘前 · 第1版</option><option value="report-2026-10-13-close-ba22aa44d94f.html">2026-10-13 收盘 · 第1版</option><option value="report-2026-10-13-premarket-c53cc5f50f25.html">2026-10-13 盘前 · 第1版</option><option value="report-2026-10-12-close-aa595c5fa9ec.html">2026-10-12 收盘 · 第1版</option><option value="report-2026-10-12-premarket-9d7bb104329d.html">2026-10-12 盘前 · 第1版</option><option value="report-2026-10-09-close-9a1a8515f845.html">2026-10-09 收盘 · 第1版</option><option value="report-2026-10-09-premarket-7b1d8d193b4f.html">2026-10-09 盘前 · 第1版</option><option value="report-2026-10-08-close-1ac957febb2d.html">2026-10-08 收盘 · 第2版</option><option value="report-2026-10-08-close-b3831bb01b4e.html">2026-10-08 收盘 · 第1版</option><option value="report-2026-10-08-premarket-46365e44227d.html">2026-10-08 盘前 · 第1版</option><option value="report-2026-09-30-close-982dfdb7abf0.html">2026-09-30 收盘 · 第5版</option><option value="report-2026-09-30-close-f70d31f56af0.html">2026-09-30 收盘 · 第4版</option><option value="report-2026-09-30-close-aab1a5de6b24.html">2026-09-30 收盘 · 第3版</option><option value="report-2026-09-30-close-213d868947d4.html">2026-09-30 收盘 · 第1版</option><option value="report-2026-09-30-premarket-1f24702a96e4.html">2026-09-30 盘前 · 第1版</option><option value="report-2026-09-29-close-8236c71edb06.html">2026-09-29 收盘 · 第1版</option><option value="report-2026-09-29-premarket-718f57ade145.html">2026-09-29 盘前 · 第1版</option><option value="report-2026-09-28-close-696e5f734ffa.html">2026-09-28 收盘 · 第1版</option><option value="report-2026-09-28-premarket-9ce7218153c8.html">2026-09-28 盘前 · 第1版</option><option value="report-2026-09-24-close-b13402acaaa1.html">2026-09-24 收盘 · 第1版</option><option value="report-2026-09-24-premarket-0c763a7dfbb4.html">2026-09-24 盘前 · 第1版</option></select></aside><main><section class="changes"><h3>2026-10-22 收盘变化</h3><p><a href="directions.html#optics">光通信：分歧</a> / <a href="directions.html#military">军工装备：分歧</a> / <a href="directions.html#semi-equipment">半导体设备：分歧</a> / <a href="directions.html#token-services">Token服务：分歧</a> / <a href="directions.html#robotics">机器人与物理AI：分歧</a> / <a href="directions.html#edge-ai-chips">端侧芯片：分歧</a> / <a href="directions.html#earnings-differentiation">财报修复与半导体测试：分歧</a> / <a href="directions.html#ai-power-supply">AI工厂电力配套：分歧</a></p></section><article class="doc" id="premarket" data-date="2026-10-22" hidden><div class="label">2026-10-22 / 盘前研究</div><h1>10月22日盘前：外盘科技回暖，A股先看财报修复能否接住</h1>
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研盛 · 每日研究</title><style>*{box-sizing:border-box}body{margin:0;color:#252720;background:#f5f2ea;font-family:Microsoft YaHei,sans-serif;line-height:1.85}header{max-width:1250px;margin:auto;padding:22px 30px;border-bottom:2px solid #252720;display:flex;align-items:center;gap:48px}.brand{font-family:SimSun,serif;font-size:30px;letter-spacing:5px}nav{display:flex;gap:24px}a{color:inherit;text-decoration:none}nav a{font-size:14px}.frame{max-width:1250px;margin:auto;padding:30px;display:grid;grid-template-columns:210px minmax(0,850px);gap:50px}aside{position:sticky;top:24px;align-self:start;font-size:14px;color:#626358}.date{font-size:16px;font-weight:bold;color:#252720}.session{display:flex;margin:22px 0;border-bottom:1px solid #cfcac0}button{font:inherit;cursor:pointer;border:0;background:none;color:inherit;padding:12px 16px}button.active{background:#252720;color:#fff}.toc a{display:block;padding:10px 0}.label{font-size:12px;letter-spacing:1px;color:#66655c}h1{font-family:SimSun,serif;font-size:38px;line-height:1.45;margin:12px 0 30px}h2{font-size:25px;margin:42px 0 18px;padding-top:22px;border-top:1px solid #d8d3c8}h3{font-size:19px;margin:28px 0 12px}p{font-size:16px;margin:16px 0}.table-wrap{overflow-x:auto;margin:25px 0}table{border-collapse:collapse;width:100%;font-size:14px;min-width:560px}th{text-align:left;background:#e9e5dc}td,th{padding:13px;border-bottom:1px solid #d8d3c8;vertical-align:top}.note{font-size:12px;color:#66655c;margin-top:30px}.doc[hidden]{display:none}.scope{border-left:2px solid #9b382b;padding-left:12px;margin-top:30px;font-size:12px}footer{max-width:1250px;margin:35px auto;padding:20px 30px;border-top:1px solid #d8d3c8;font-size:12px;color:#66655c}main{min-width:0}@media(max-width:700px){header{padding:18px 20px;gap:20px;flex-wrap:wrap}.frame{padding:20px;display:block}aside{position:static}.toc{display:none}.session{margin:14px 0}.scope{margin:15px 0}h1{font-size:29px}h2{font-size:23px}.label{margin-top:20px}}.wide{max-width:1050px;margin:auto;padding:25px}select{max-width:100%;padding:10px}article table{display:block;overflow:auto;min-width:0;max-width:100%}a{text-decoration:underline}</style><style>.record{padding:16px 0;border-bottom:1px solid #d8d3c8}.record small{color:#66655c}.changes{border-bottom:1px solid #d8d3c8;margin-bottom:20px}.changes h3{font-size:15px;margin:12px 0}.changes p{font-size:14px}.update-notice{position:sticky;top:0;background:#eee9df;padding:8px 20px;z-index:3;font-size:14px}.update-notice[hidden]{display:none}.company-links{font-size:14px}</style><div class="update-notice" id="update-notice" hidden role="status"><span></span><button id="accept-update">更新</button></div><header><a class="brand" href="today.html">研盛</a><nav><a href="today.html">今日研究</a><a href="opportunities.html">机会跟踪</a><a href="companies.html">公司研究</a></nav></header><div class="frame"><aside><div class="date"></div><div class="session"><button data-session="premarket">盘前</button><button data-session="close">收盘</button></div><div class="toc"></div><p>过往研究</p><select aria-label="过往研究" onchange="if(this.value)location.href=this.value"><option value="">选择日期与时段</option><option value="report-2026-10-23-premarket-0ab4cb8a1f29.html">2026-10-23 盘前 · 第1版</option><option value="report-2026-10-22-close-39483ad65cbc.html">2026-10-22 收盘 · 第1版</option><option value="report-2026-10-22-premarket-517dbf70bcf3.html">2026-10-22 盘前 · 第1版</option><option value="report-2026-10-21-close-327eee5229ac.html">2026-10-21 收盘 · 第1版</option><option value="report-2026-10-21-premarket-44f6f06be01e.html">2026-10-21 盘前 · 第1版</option><option value="report-2026-10-20-close-03ca61ba13ff.html">2026-10-20 收盘 · 第1版</option><option value="report-2026-10-20-premarket-3ccbf61ec5eb.html">2026-10-20 盘前 · 第1版</option><option value="report-2026-10-19-close-37028a36abc0.html">2026-10-19 收盘 · 第1版</option><option value="report-2026-10-19-premarket-e110a5d85655.html">2026-10-19 盘前 · 第1版</option><option value="report-2026-10-16-close-df3ff733d153.html">2026-10-16 收盘 · 第1版</option><option value="report-2026-10-16-premarket-18503375ad6a.html">2026-10-16 盘前 · 第1版</option><option value="report-2026-10-15-close-94b8d7393134.html">2026-10-15 收盘 · 第1版</option><option value="report-2026-10-15-premarket-8a438db13651.html">2026-10-15 盘前 · 第1版</option><option value="report-2026-10-14-close-758d34ef03d5.html">2026-10-14 收盘 · 第1版</option><option value="report-2026-10-14-premarket-54e88333727d.html">2026-10-14 盘前 · 第1版</option><option value="report-2026-10-13-close-ba22aa44d94f.html">2026-10-13 收盘 · 第1版</option><option value="report-2026-10-13-premarket-c53cc5f50f25.html">2026-10-13 盘前 · 第1版</option><option value="report-2026-10-12-close-aa595c5fa9ec.html">2026-10-12 收盘 · 第1版</option><option value="report-2026-10-12-premarket-9d7bb104329d.html">2026-10-12 盘前 · 第1版</option><option value="report-2026-10-09-close-9a1a8515f845.html">2026-10-09 收盘 · 第1版</option><option value="report-2026-10-09-premarket-7b1d8d193b4f.html">2026-10-09 盘前 · 第1版</option><option value="report-2026-10-08-close-1ac957febb2d.html">2026-10-08 收盘 · 第2版</option><option value="report-2026-10-08-close-b3831bb01b4e.html">2026-10-08 收盘 · 第1版</option><option value="report-2026-10-08-premarket-46365e44227d.html">2026-10-08 盘前 · 第1版</option><option value="report-2026-09-30-close-982dfdb7abf0.html">2026-09-30 收盘 · 第5版</option><option value="report-2026-09-30-close-f70d31f56af0.html">2026-09-30 收盘 · 第4版</option><option value="report-2026-09-30-close-aab1a5de6b24.html">2026-09-30 收盘 · 第3版</option><option value="report-2026-09-30-close-213d868947d4.html">2026-09-30 收盘 · 第1版</option><option value="report-2026-09-30-premarket-1f24702a96e4.html">2026-09-30 盘前 · 第1版</option><option value="report-2026-09-29-close-8236c71edb06.html">2026-09-29 收盘 · 第1版</option><option value="report-2026-09-29-premarket-718f57ade145.html">2026-09-29 盘前 · 第1版</option><option value="report-2026-09-28-close-696e5f734ffa.html">2026-09-28 收盘 · 第1版</option><option value="report-2026-09-28-premarket-9ce7218153c8.html">2026-09-28 盘前 · 第1版</option><option value="report-2026-09-24-close-b13402acaaa1.html">2026-09-24 收盘 · 第1版</option><option value="report-2026-09-24-premarket-0c763a7dfbb4.html">2026-09-24 盘前 · 第1版</option></select></aside><main><section class="changes"><h3>2026-10-23 盘前要点</h3><p><a href="directions.html#optics">光通信：承压</a> / <a href="directions.html#robotics">机器人与物理AI：分化</a> / <a href="directions.html#earnings-differentiation">财报修复与半导体测试：分歧</a> / <a href="directions.html#advanced-packaging">先进封装与封测：事件观察</a></p></section><article class="doc" id="premarket" data-date="2026-10-23" hidden><div class="label">2026-10-23 / 盘前研究</div><h1>10月23日盘前｜科技再受压，封测与电机看分化</h1>
 <h2>市场背景</h2>
-<p><strong>隔夜科技股上涨，给了今天A股修复的外部条件；但昨天的普跌和宁德时代的盈利冲击还没有过去，今天仍应按局部修复选公司。</strong> 美股纳指收涨1.05%，标普500涨0.58%，费城半导体指数涨1.97%；英伟达涨2.54%，AMD涨3.36%，Lumentum涨3.43%。改善主要在科技和算力链，不能从这些涨幅推成中国资产已经转强：中概金龙指数同期跌2.35%，昨天恒生科技也跌1.26%。</p>
-<p>A股自身更需要先处理盈利和价格之间的落差。昨天沪指跌0.60%、创业板跌1.62%，沪深1941只上涨、3054只下跌；成交约1.43万亿元，比前一天减少约1.8%。宁德跌12.03%，电池行业8涨98跌。收入增长没有带来同等利润增长，产品结构与税费的压力又尚未完全转给客户，市场因此下调了对单位盈利的接受程度。今天即使反弹，也要区分跌后的回补和盈利担忧真正缓解。</p>
-<p>隔夜的新证据总体有利于AI需求，兑现节奏却并不一致。Meta三季度收入增长26%，将全年资本开支区间的下限从1300亿美元提高到1350亿美元，上限仍为1450亿美元；这是投资强度继续维持的证据，但同季自由现金流为负21.2亿美元，需求扩张与现金回收压力仍然并存。特斯拉最新材料则确认，Optimus已在Fremont产线开始生产，但仍在早期爬坡，制造工艺还要迭代。两者分别支持算力投入和机器人产业进展，不能直接变成A股供应商已经获得订单。</p>
-<p>利率和能源约束仍在。美国10年期国债收益率约5.12%，高利率没有消失；WTI结算跌0.68%至97.15美元，布油基本持平于108.82美元。能源风险没有演化成昨夜新的全面涨价冲击，也远未解除。对今天的选择，财报质量、位置和实际承接比重复讨论宏观利好更有区分度。</p>
+<p><strong>今天先控制科技敞口，不宜按普遍反弹安排交易。</strong> 昨夜纳斯达克跌2.60%，费城半导体指数跌6.72%；英伟达跌4.40%，AMD跌8.10%，Lumentum、Coherent和应用光电跌幅均超过11%。这轮压力已经从大厂延伸到芯片与光通信供应商，A股今天面对的是新的外部卖压。</p>
+<p>国内也没有足够强的底子抵消它。昨天沪指跌1.48%，深成指跌2.96%，创业板跌4.37%，沪深448只上涨、4738只下跌；沪深成交约1.53万亿元。成交比前一天增加，但多数股票下跌、创业板收在日内低位，这是下跌中的交易放大，不能解释成增量资金进场。今天即使出现低开反弹，首先也要辨别：是少数公司修复，还是多数股票真的止跌。</p>
+<h3>压力集中在AI投入与回报，不是所有资产一起崩</h3>
+<p>美国道指基本收平，银行股部分上涨，十年期美债收益率回落至约4.96%。科技在利率回落时仍然大跌，说明用“利率上升压估值”解释昨夜行情不够。更直接的矛盾是：AI投入还要继续增加，收入、现金回报和后续融资能否跟上，市场开始要求更高的证明。</p>
+<p>Meta提高资本开支下限、筹划增设无投票权股份类别，放大了市场对投入和筹资的关注；这不等于已经融资到账。另一方面，泛林新一季收入达到82.19亿美元，环比增长22%，并给出下一季继续增长的指引。设备生意仍在增长，科技股却继续下跌，说明<strong>经营增长已经不能保证股价获得正面反馈，价格中原有的预期也在被重新审视</strong>。不能由此推导出AI订单全面消失，也不能因为产业需求还在，就认定下跌结束。</p>
+<p>油价增加了另一个约束：WTI十二月合约结算上涨2.39%，布伦特十二月合约上涨4%。能源成本和通胀压力并未随科技下跌一起消失。黄金期货同期下跌2.66%，也不能简单把贵金属当成这次科技调整的现成避风港。</p>
+<h3>资金仍集中交易科技，但上涨的覆盖面在缩小</h3>
+<p>昨天半导体成交额约1902亿元，在同口径82个行业成交中的占比，从前一天11.87%升至13.06%，行业却只有22只上涨、167只下跌；通信设备也只有7只上涨、85只下跌。高成交与普跌同时存在，反映的是激烈换手和卖压，尚不足以证明主线资金重新回流。</p>
+<p>电机是少数例外：昨天18只上涨、7只下跌，成交额由约31亿元增至74亿元，近五个交易日行业涨幅约9.55%。但同期自动化设备仍是21涨76跌。有效的范围目前集中在部分电机公司，还没有扩展为整个机器人产业链。今天要沿着这个差别选观察对象。</p>
 <h2>题材与驱动</h2>
-<h3>一、测试与光互连：扩产有了时间表，先比较谁已经兑现</h3>
-<p>英伟达GTC最值得拆解的新增信息，是具体环节的扩产安排：供应链伙伴计划在2026至2027年将测试产能翻倍，SPIL计划在2027年中将CPO光引擎产能提高至15倍。测试和光引擎的设备、工艺需求都有了更清楚的产业方向，但扩产发生在不同伙伴、不同时间，不能把倍数平均分给整条A股产业链。</p>
-<p><strong>长川科技是今天新增优先观察，澜起科技是昨天已有价格验证的比较对象，仕佳光子则要把利润和现金一起看。</strong> 三者的关注理由不同。</p>
-<p>长川做测试机、分选机和相关自动化设备。半年报列出的D9000覆盖SoC测试，三温分选及系统级测试设备适用于AI、CPU和网络芯片等场景；因此它与测试复杂度提高有产品联系。昨晚新增前三季度预告：归母利润17.15—18.15亿元，扣非16.67—17.67亿元，公司解释为订单、销售规模和利润率提升。这里先有公司自己的经营增长，再叠加海外扩产的行业背景，关联比单纯贴上GTC标签扎实。</p>
-<p>它与华峰测控也不能简单互换。华峰的基本盘偏模拟和混合信号测试，同时向SoC及系统级测试拓展；长川的测试机与分选机产品组合不同。价格上，截至昨天，长川近十个交易日跌15.70%，华峰跌20.55%，两家都经历了明显调整。长川这次预告提供了新的事件比较依据，却没有证明它比华峰更便宜，更没有证明它拿到了英伟达采购。今天要检验的是，新财报能否让长川走出较好的价格接受，而非仅借外围高开一下。</p>
-<p>澜起昨天涨5.36%，高于开盘，也跑赢仅微涨的半导体行业，属于经营信息已经得到一轮正面回应。它做内存接口与互连芯片，收益来自产品需求、代际升级和毛利结构，和长川卖测试设备不是同一笔订单。今天若长川获得承接、澜起保持相对强势，才更像财报修复在扩展；如果只有一只强，就收窄到该公司的事件。</p>
-<p>仕佳的关联更具体：半年报披露，适配800G、1.6T光模块的部分MT-FA产品已批量商用，面向CPO封装的高通道FAU已小批量出货。前者服务高速光连接，后者连接先进封装中的光纤，产品处于不同兑现阶段；这些是此前已有的业务基础，昨夜新增的是财报与产业扩产的交叉验证。其三季度收入12.27亿元、归母利润2.71亿元，分别同比增长116.06%、226.19%。但前三季度经营现金净流出4.39亿元，备货与回款节奏需要一起比较。昨天涨3.31%，近十日仍跌23.81%，属于深调后的修复观察。罗博特科处于设备环节，两者不能因都涉及光互连就套用同一个增长倍数。今天优先看仕佳的财报接受程度，设备链暂不因CPO扩产口号整体升级。</p>
-<h3>二、物理AI：从执行部件转向数据，今天更看分歧后的选择</h3>
-<p>昨天机器人并非整体走强。减速器29涨108跌，中大力德、绿的谐波、双环传动均收跌；自动化设备成交占比从前一天2.67%退至2.26%。与此同时，海天瑞声涨11.70%、瑞芯微涨5.80%，IT服务成交额连续三日从250亿元升至296亿元、380亿元，在固定可比行业中的占比从1.83%升至2.13%、2.78%。这些数据支持交易重心向数据和端侧扩散，尚不足以称机器人全链条重新聚拢。</p>
-<p>星球资料里的重要分歧也更具体了：一边看机器人模型和量产进展，另一边追问高质量数据能否形成可重复销售的生意。真实动作数据、第一视角视频、仿真合成数据的成本、质量与用途不同；定制采集订单增加，也不等于利润能同比例扩张。这个分歧值得保留，它决定后续应找有客户交付和数据处理能力的公司，而不是把所有传媒、展示公司都当成同样的受益者。</p>
-<p>海天瑞声作为数据方向的价格观察对象，昨天收115.60元，近三个交易日已涨47.56%；长盈近三日也涨35.71%。前者用于检验高位数据交易能否留下承接，后者用于观察机器人供应链情绪，都已进入加速后的阶段。长盈“前八个月交付110万件”的数字此前已披露，昨晚复述不再算一次新订单利好。特斯拉的产线进展可以提高产业关注，不能替这些A股公司重新创造低位。</p>
-<p>数据集团题材则需要做明确取舍。南威已披露AI短剧尚未上线、智算中心尚未运营且无在手订单；太极明确尚未与国家数据集团开展具体合作。它们的上涨可以反映题材情绪，不能据此安排业务兑现交易。今天若高标松动，而同类没有接续，先降低这组短线参与顺序；若端侧芯片仍稳，继续单独比较端侧，不能把数据高标的失败扩成整个物理AI失效。</p>
-<h3>三、AI工厂配套：杰瑞有经营增量，预收款还要经过交付</h3>
-<p>杰瑞昨天涨5.08%，近十日仍跌17.44%，值得作为新一组经营修复比较。它从油气装备延伸到发电及配套设备，与液冷公司解决的是不同瓶颈：前者首先解决电源供给，后者处理运行中的散热。这个转型已有合同基础：半年报披露，7月子公司已接受某云服务提供商14.65亿美元采购订单；同时说明，相关燃机及配套订单大部分在2027年及以后交付。因此当前炒作包含未来交付预期，不能拿三季度单季利润直接年化。</p>
-<p>三季报显示，合同负债从年初19.40亿元增至70.51亿元，预付款也从10.94亿元增至43.45亿元。预收和采购同时增加，说明项目准备规模扩大，利润仍要经过采购、交付和验收。前三季度经营净现金流24.13亿元，同比下降17.59%；不能把现金流入增长32.82%写成净现金流增长，也不能把全部合同负债直接指定为某个美国客户的订单。</p>
-<p>星球正在讨论燃机供给、认证与2027年产能，这些可以解释市场为什么重新关注它，但尚不宜据此提前计算全部远期利润。今天将杰瑞放在经营修复观察，优先比较它能否延续昨天的价格响应；英维克等液冷公司只作不同环节的对照，不要求两者同涨才承认某一家有机会。</p>
-<p>电网、光伏暂排在这三组之后。平高三季度利润增长，但电网设备昨天成交占比、上涨宽度都回落；爱旭单季归母转正，扣非仍亏损。它们有研究增量，当前还缺少足够证据替换前面的观察顺序。</p>
+<h3>封测：长电给出新财报，华天才是昨天价格更强的公司</h3>
+<p><strong>封测排在今天财报研究的前列，但还不能认定它已接替科技主线。</strong> 长电科技昨晚披露三季报，第三季度收入114.25亿元、归母净利润7.73亿元、扣非净利润7.53亿元。前三季度计算电子收入占比升至30.9%、同比增长54%。AI计算需求传到封装测试环节，已经有业务结构和利润数据支撑，比只讲先进封装空间更进一步。</p>
+<p>扩张也要付现金。长电董事会拟把全年总投资计划从110.1亿元调至182亿元，其中固定资产投资由99.8亿元调至173.1亿元，尚需股东会审议。前三季度经营现金净流入约43亿元，购建长期资产支付约88.91亿元，65亿元定增取得国资批准还不等于资金已经到位。利润改善与资本投入同步上升，新增产能利用率、客户交付和现金回收，将决定扩张最后能留下多少收益。</p>
+<p>选公司还要看昨天市场怎么选。华天科技涨9.12%，长电涨3.09%，通富微电仅涨0.27%；过去十个交易日，三者分别跌约2.99%、5.75%和14.54%。<strong>华天是当前价格强度的比较核心，长电是新增经营证据的重点，通富用来比较海外计算需求暴露和修复差异。</strong> 不能因为长电昨晚有新财报，就忽略华天已经更强，也不能因为通富跌得多就把它排成最有补涨空间。</p>
+<p>经营底色同样不同。通富有AMD相关高性能计算封测业务，上半年归母净利润17.17亿元、扣非7.47亿元，非经常收益对利润的贡献较大。华天上半年归母净利润8.13亿元、扣非2.50亿元，经营现金净流入同比下降，产品覆盖计算、存储、汽车等多个方向。当前更值得比较的是主营增长能留下多少利润，以及回款能否跟上扩张。</p>
+<p>今天比较三家公司对各自开盘与昨天收盘的接受程度。如果只有长电因财报走强、华天和通富仍弱，只能提高长电的单独研究顺序；如果华天维持强度、长电新增业绩获得接受，同时行业上涨面扩大，封测的延续性才有更强依据。昨夜半导体重挫之下，单只高开尤其不能直接当成参与信号。</p>
+<h3>电机：核心在走强，雷赛仍要证明自己的财报能被接受</h3>
+<p>机器人讨论的重点正在由远期整机数量，转向执行部件、可靠性和实际部署。工博会相关产业调研也更关注近期可交付的工业场景，而不是立即进入家庭的大规模量产。这为电机和运动控制提供了研究线索，但展会讨论本身不能证明某家A股公司拿到了特定客户订单。</p>
+<p>昨天鸣志电器、兆威机电均涨停，大洋电机涨约10%，雷赛智能反而跌3.72%。这组对照比“机器人板块强”更有意义：资金愿意集中到部分公司，却没有普遍接受所有运动控制标的。兆威过去五个交易日累计上涨约38.18%，鸣志约23.74%，价格已经对预期作出明显反应，不能把接下来的空间全部视作新增催化。</p>
+<p>雷赛的新信息更具体：第三季度收入约6.61亿元、归母净利润1.06亿元，伺服业务收入同比增长66.47%。但前三季度经营现金净流出约0.52亿元，公司解释涉及战略备货和票据安排，仍需要后续销售回款验证。鸣志上半年控制电机及驱动收入占总收入约88%，同比增长25.7%，是相对直接的业务映射；这并不证明其机器人新增订单已充分兑现为利润。</p>
+<p>因此，鸣志和兆威承担强度观察，雷赛承担财报差异比较。若核心维持强势而雷赛继续低于自己的开盘和前收，就不做“核心涨多了，换低位”的推导。若雷赛能够独立转强，也应先判断它的新业绩是否被接受，再研究参与依据。兆威预约10月29日披露三季报，届时经营兑现会比当前题材联想更有分量。</p>
+<h3>光通信和PCB：保留经营研究，参与顺序后移</h3>
+<p>光通信的风险最直接：海外同类公司昨夜普遍大跌，国内通信设备昨天上涨面已经很窄。天孚近期披露的CPO产能推进和交付信息，并不支持“需求突然全面消失”；但它也不能抵消价格承受的压力。今天先看中际旭创、新易盛等核心能否停止继续走弱，再讨论修复，不能先从产业好消息推到加仓。</p>
+<p>深南电路第三季度利润高增长，也是经营层面的正面证据；同时，前三季度应收、存货和资本开支明显扩张，现金回收需要跟踪。封测、电机、光通信和PCB都与科技需求有关，但各自的价格阶段和盈利兑现不同。今天的选择依据是这种差异，而不是把它们合并成一次科技反攻。</p>
 <h2>今日计划与观察名单</h2>
-<p>今天的顺序是：先看整体修复有没有扩散，再比较测试与互连的财报接受，其次看物理AI分歧后的核心，杰瑞单独核验经营修复。<strong>不把外围上涨当作统一追高理由，也不因为昨天跌得多就把电池放在最前。</strong></p>
+<p><strong>基准安排是减少主动出手，先看开盘卖压能否被消化。</strong> 外部科技风险加重、国内宽度偏弱，暂不为普涨反弹增加预算。盘中修复首先改变研究优先级，只有公司逻辑、价格结构和可承担的损失都能交代清楚，才进入参与评估。</p>
 <table>
 <thead>
 <tr>
 <th>观察组</th>
-<th>今天具体看什么</th>
-<th>结果怎样改变选择</th>
+<th>今天先看什么</th>
+<th>判断怎样改变</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>长川／华峰；澜起</td>
-<td>长川的新预告是否得到价格回应，华峰用于比较测试同业，澜起用于比较已获接受的财报修复。盘中观察相对前收；日终收涨且高于开盘记积极，高开后收盘同时低于开盘和202.14元前收记偏弱，其余分歧；华峰按自身同一口径比较</td>
-<td>长川与同业共同承接才扩大测试关注；长川独强就只保留公司事件。澜起强弱单独裁定，不作整个行业的否决票</td>
+<td>科技风险：中际旭创、新易盛</td>
+<td>10:00分别比较现价与各自开盘、昨天收盘；同时比较沪深上涨家数占涨跌家数的比例，与昨天约8.64%的水平</td>
+<td>核心仍同时低于自身开盘和前收，继续按风险收缩处理；比例高于昨天只记改善，若仍是多数股票下跌，就不据此认定风险解除；单股恢复只提高该股修复观察</td>
 </tr>
 <tr>
-<td>仕佳光子</td>
-<td>盘中观察相对前收；日终收涨且高于开盘记积极，高开后收盘同时低于开盘和117.70元前收记偏弱，其余分歧</td>
-<td>前收只用于判断新财报的价格接受，不是止损价或买入价；现金兑现问题继续保留</td>
+<td>封测：华天15.55元、长电59元、通富47.80元</td>
+<td>上述为昨天收盘。10:00逐只比较现价与自身前收及今日开盘，不要求三只机械地一起通过</td>
+<td>华天守住相对强度、长电财报获得接受且行业上涨面改善，才提高封测整体顺序；单只走强只作公司层面调整</td>
 </tr>
 <tr>
-<td>海天瑞声／瑞芯微</td>
-<td>分别观察相对各自前收的回落与恢复；日终收涨且高于开盘记积极，高开后同时收低于开盘和前收记偏弱，其余分歧</td>
-<td>数据高标弱、端侧稳则收窄至端侧；两组都弱则减少物理AI试错。不能凭一次冲高重获二波资格</td>
-</tr>
-<tr>
-<td>杰瑞股份</td>
-<td>看91元前收附近的价格接受及开收盘关系；若高开却收低于开盘和前收，视为昨夜信息未获持续接受</td>
-<td>保留发电设备的经营研究，降低当下追涨顺序；不把一天回落写成订单取消</td>
-</tr>
-<tr>
-<td>宁德与市场整体</td>
-<td>宁德先看是否停止继续扩大跌幅，再看电池上涨家数能否从昨天的极弱状态改善；市场则看上涨范围能否扩大</td>
-<td>龙头企稳但行业仍普跌，只按权重修复；广泛改善才提高整体试错意愿</td>
+<td>电机：鸣志54.47元、兆威83.39元、大洋7.06元；雷赛49.23元</td>
+<td>前三只看昨天强度能否保留；雷赛单独看新财报的价格反应</td>
+<td>核心明显回吐而上涨面收缩，降低延续预期；核心强、雷赛弱，不以低位为由替换；雷赛独立转强再补参与研究</td>
 </tr>
 </tbody>
 </table>
-<p>上午10:00，先用同一行情源的同刻价格，对比各自前收与开盘：两者之上，提高该公司的当天研究顺序；高开后同时跌回两者之下，降低追涨顺序；其余保留分歧。长川与华峰分别判断，再比较这轮修复是公司事件还是同业扩展；海天与瑞芯也分别处理。这个核验由读者自行完成，不用等到收盘才调整关注对象，也不假定已在盘中成交。没有历史同刻成交数据时，不据累计量判断跨日放量。收盘再以最终涨跌、行业宽度和核心开收盘关系复核。价格接受通过，只提高后续参与评估的优先级。</p>
-<p>策略分三种情况：若上涨范围扩大，测试、互连的财报股与数据／端侧都能留下承接，可逐步提高局部试错意愿；若指数回升而多数公司仍弱，只比较少数经营事件，不扩散追涨；若宁德继续承压、财报股高开低走且数据高标回落，先收缩风险，减少当天新增交易。现阶段没有足够依据给出统一入场价或仓位比例。</p>
-<p>二波另行分层：思看与双环截至昨天都刚进入首个整理日，尚未形成成熟整理；洪都已有三天整理，但不能仅凭缩量当作完成资格认证。它们保持模型观察，不与上述财报修复混成确认名单。九阳仍属暂缓参与，旧退出对象保留历史；今天没有因隔夜题材消息新增二波确认。</p></article><article class="doc" id="close" data-date="2026-10-22" hidden><div class="label">2026-10-22 / 收盘更新</div><h1>10月22日收盘：普跌加深，财报修复没有接住科技股</h1>
-<h2>风险继续扩大，科技股跌到什么程度</h2>
-<p>今天是一次明显加重的普跌。沪指跌1.48%，深成指跌2.96%，创业板跌4.37%、收在全天最低点。沪深A股448只上涨、4738只下跌；上涨股票占涨跌家数的比例，从昨天约39%降至不足9%。早盘期待的局部修复没有扩散，下午也没有出现足以改变局面的回升。</p>
-<p>沪深成交1.529万亿元，比昨天增加约994亿元。<strong>这笔增量伴随更大的跌幅和更差的上涨家数，反映的是下跌中的换手增加，不能据此判断买盘回来了。</strong> 90个行业里只有电机、工程机械收涨，消费和传媒也在跌，靠轮动避开下跌的难度明显提高。</p>
-<p>科技的压力集中在光通信和此前承载较高盈利预期的公司。中际旭创跌8.76%，新易盛跌12.28%，天孚通信跌8.36%；半导体行业跌2.96%，元件跌5.38%。华峰测控近5个交易日跌15.80%、近10日跌24.27%，已经超出一天消息扰动的程度。当前要解决的是这一轮预期下修何时停止，而不是只找跌幅大的股票。</p>
-<p>原因需要分主次。宁德时代昨天的财报冲击之后，今天继续跌3.29%，盈利质量的担忧没有结束；但今天卖压扩展到通信、半导体、传媒，已不能只归因于宁德这一只权重股。市场对科技公司的盈利兑现要求在提高：光模块讨论从长期需求转向季度利润能否达到此前预期，长川、仕佳这些有新业绩信息的公司也没能维持高开。这说明，利润增长本身已经不够，增长能否覆盖价格里的期待，才是当前分歧。</p>
-<p>星球里对光模块季度利润的预测出现明显分歧，AI公司收入传闻也有反驳；这些讨论能解释预期为什么不稳，尚不能当成公司业绩已下修的事实。海外科技估值、融资和现金回报的担忧是共同背景，但把今天全部下跌归结为某条海外传闻，依据不够。盘后美债收益率反而回落，也不支持用“今天利率继续上升”概括这次调整。</p>
-<p>资金表现同样偏弱。通信成交从昨天1037亿元增至1193亿元，在固定可比行业中的成交占比升至8.19%，却只有7涨85跌；半导体成交占比从11.87%升至13.06%，只有22涨167跌。<strong>交易更集中在科技股身上，价格和上涨范围却继续恶化，暂时看不到主线重新凝聚。</strong></p>
-<h2>盘前重点：修复预期落空，只有少数个股保留强度</h2>
-<p>早上优先看长川、仕佳，是因为新业绩信息叠加海外测试、光互连扩产，有机会改变此前连续调整的预期；杰瑞则有发电设备订单和交付的独立逻辑。今天的结果，是经营线索仍在，短线价格接受明显弱于早盘设想。</p>
-<table>
-<thead>
-<tr>
-<th>盘前对象</th>
-<th>今天验证了什么</th>
-<th>判断怎样变化</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>长川科技、华峰测控</td>
-<td>分别高开于209元、301.08元，收198.74元、278元，均低于开盘和前收</td>
-<td>测试设备的事件修复没有成立，降低追涨顺序</td>
-</tr>
-<tr>
-<td>仕佳光子</td>
-<td>10:00仍高于开盘和前收，随后回落，收114.40元、跌2.80%</td>
-<td>上午的积极反应未能延续，光互连修复降序</td>
-</tr>
-<tr>
-<td>澜起科技</td>
-<td>收175.33元、跌1.69%，低开后未修复</td>
-<td>昨天的强度没有延续；按原条件属于分歧，不混写成高开失败</td>
-</tr>
-<tr>
-<td>海天瑞声、瑞芯微</td>
-<td>海天涨1.64%，收于开盘之上；瑞芯跌1.60%</td>
-<td>数据股保留个别强度，端侧没有同步走强，关注范围继续收窄</td>
-</tr>
-<tr>
-<td>杰瑞股份</td>
-<td>开95元，收89.39元、跌1.77%，低于91元前收</td>
-<td>新经营信息没有转化成持续上涨，经营研究保留，追涨降序</td>
-</tr>
-</tbody>
-</table>
-<p>杰瑞的差别值得保留。公司交流确认，7月已接受的14.65亿美元订单计划2027年分批交付，并已收到预付款。这支持发电设备经营研究继续推进；今天的高开回落，则说明短期价格尚未接受更高预期。两件事并存，后续应比较交付进展和股价重新走强的证据，不能因订单大就忽略今天的回吐。</p>
-<p>今天最突出的新增强项是电机：行业涨4.30%，鸣志电器、兆威机电涨停，大洋电机涨9.97%。但自动化设备整体跌1.87%，21涨76跌，强度集中在少数电机公司，尚未扩展为机器人全产业链。鸣志此前两天已经连续上涨，昨天只停顿一天；兆威仍在连续推进。它们值得提高延续研究顺序，但都不属于刚完成充分整理的二波低位机会。</p>
-<p>海天瑞声的相对强势也要放在这个背景下看：IT服务上涨家数从昨天98只降到今天4只，单股强没有得到行业扩散支持。当前有效的是少数核心的独立表现，追同一概念的后排，比昨天更难做。</p>
-<h2>后续应对与二波观察</h2>
-<p>下一交易日先看科技卖压能否减轻，再决定是否提高参与强度。长川、仕佳若出现修复，要比较各自是否收涨、能否收于当天开盘之上，以及华峰和光通信核心是否仍在扩大跌幅；个股恢复而同类继续普跌，只提高该股的研究顺序。海天保留独立观察，瑞芯及数据同类没有跟上之前，不扩大到整条物理AI。上述日终结果用于下一步重评，不提前当作盘中买点。</p>
-<p>机器人先集中研究今天真正走强的电机公司。鸣志、兆威能否保留强度，以及大洋等同行能否继续响应，决定这次局部上涨是否值得继续展开。若核心回吐、同类也转弱，就收回延续判断；当前不因涨停直接追加追高安排。</p>
-<p><strong>二波没有新增确认。洪都航空列入低优先级候选观察，暂不参与。</strong> 今天是19日开始整理后的第4个交易日，收35.98元、跌2.23%，最低35.92元，尚未跌破原35.90元参考点；成交量较昨天减少约24%。但缩量没有伴随价格重心抬升，沈飞平收，西飞、成飞、中直均下跌，整机组没有重新共同发动。资格研究中已核实的首波事实继续保留，当天启动条件没有出现。</p>
-<p>10月23日是这段短整理的第5日，届时重审：若有主动价量推进，且整机核心、同类出现配合，再提高优先级并单独评估位置和风险；仍无启动，就撤下短整理重点。没有独立平台证据，不顺延天数，也不自动改成平台二波。思看、双环今天均只是整理第2日，原有阶段纠错保留；九阳继续暂缓，旧退出对象不因反弹恢复。</p></article></main></div><footer>研盛 · 每日研究</footer><script>
+<p>10:00是第一轮观察时点，不是统一买入时点；开盘、前收分别比较，处于两者之间就保留分歧，不强行判定转强。盘中出现新的独立信息，应重新排序，而不是等到收盘才允许改变研究方向。</p>
+<p>三种情形对应三种处理：<strong>继续普跌，优先收缩；局部修复，只聚焦少数能独立成立的公司；核心恢复且上涨面持续扩大，再评估是否提高整体参与度。</strong> 一根反弹线或一只涨停股，都不足以完成第三种判断。</p>
+<h3>二波：洪都到观察期限，新强势股不混入确认池</h3>
+<p>洪都航空仍是低优先级候选，尚未启动、没有新增参与条件。它此前的首次资金和细分共振研究已经完成，当前等待的是整理后的再次进攻。10月19日至22日为四个整理观察日，今天是第五天，也是原定观察期限的最后一天。</p>
+<p>今天仍按原条件看主动成交、价格重心能否上移，并与沈飞、成飞、西飞、中直的表现比较。昨天洪都收35.98元，原先35.90元是<strong>收盘观察止损线</strong>，盘中触及不等同于已经触发收盘条件。若收盘低于它，结束本次观察；若到收盘仍未启动，也撤出短整理的重点跟踪，不自动换一个长整理模型延续。</p>
+<p>长电和华天昨天的新强势没有经历整理，兆威仍处于连续进攻，不能并入短整理二波确认。雷赛的旧短期结构已经遭破坏，20日回升后再度回落，也不能写成健康的两天洗盘。思看、双环保留阶段跟踪，尚不足以新增确认。<strong>今天二波确认仍为零；财报观察、新题材比较与二波资格分别处理。</strong></p></article><article class="doc" id="close" data-date="2026-10-22" hidden><h2>收盘更新 · 2026-10-22</h2><p><a href="report-2026-10-22-close-39483ad65cbc.html">阅读该日收盘研究</a></p></article></main></div><footer>研盛 · 每日研究</footer><script>
     const docs=[...document.querySelectorAll('article.doc')];
     function show(s){
       if(s==='pre')s='premarket';
@@ -136,4 +78,4 @@
     });
     function restore(){show(new URLSearchParams(location.search).get('session'));}
     window.addEventListener('popstate',restore);restore();
-    </script><script>window.YANSHENG_RELEASE="688954718d90a06f07b976f8";window.YANSHENG_HISTORICAL=false;</script><script>window.YANSHENG_BUNDLE_SHA="042369785b7d78cead3bd680334c37d69b330ba9b9d83099cd21b4fbaeaf3a74";</script><script src="workbench.js"></script></html>
+    </script><script>window.YANSHENG_RELEASE="124c403ded44e2ef3ac5cf89";window.YANSHENG_HISTORICAL=false;</script><script>window.YANSHENG_BUNDLE_SHA="b90491cfb6ac4f88b741108c25f9d029e7818e39aa51c752bc5fca4a1c2eb972";</script><script src="workbench.js"></script></html>
