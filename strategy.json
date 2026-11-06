@@ -1,10 +1,10 @@
 {
   "schema": "yansheng-strategy-page-v1",
   "date": "2026-11-06",
-  "generated_at": "2026-11-06T21:22:54+08:00",
+  "generated_at": "2026-11-06T22:03:28+08:00",
   "state": "flat",
   "page": "strategy.html",
-  "sha256": "899defdc26f45f23f2799eb5353f5be74cf1acb447d2dfd526227d97733ecb50",
+  "sha256": "670090186c954e643f8caf7b898c3009a4d321add6ad8e5292da9184c815b130",
   "picks": 0,
   "blocked": 0,
   "market": {
