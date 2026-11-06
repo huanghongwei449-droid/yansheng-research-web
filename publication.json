@@ -398,21 +398,34 @@
       "identity": "正式版",
       "sha256": "7ba20ae1405470095b8c2380b91eea77954a26c27ef2bdb91b8a5192c84f77bf",
       "page": "report-2026-11-06-close-7ba20ae14054.html"
+    },
+    {
+      "date": "2026-11-06",
+      "session": "premarket",
+      "identity": "历史重编",
+      "sha256": "2c7cfb0b93a745cb34b4f4573ae8c890fc61f2c0dc8602b9a4da4066a1625ab6",
+      "page": "report-2026-11-06-premarket-2c7cfb0b93a7.html"
+    },
+    {
+      "date": "2026-11-06",
+      "session": "close",
+      "identity": "历史重编",
+      "sha256": "454c40039f6f40f1099bfcfbaea5c5dbb2d19d33186578169f65bfb4af2b8f19",
+      "page": "report-2026-11-06-close-454c40039f6f.html"
     }
   ],
   "poolDate": "2026-11-06",
   "schema": "yansheng-publication-v2",
-  "release_id": "5eacca3910eff4796cea0b11",
+  "release_id": "476f5f4ed07a3273f4b3b585",
   "published_at": null,
-  "prepared_at": "2026-11-06T09:25:56.783778+00:00",
+  "prepared_at": "2026-11-06T14:57:45.710158+00:00",
   "bundle": {
-    "path": "release-5eacca3910eff4796cea0b11.json",
-    "sha256": "bfdf24728bfbdcad6f44b9878043a0e3e55fab1d1ecd7be55a787abb90e10747"
+    "path": "release-476f5f4ed07a3273f4b3b585.json",
+    "sha256": "dc353b441998a816dd0712af094051a396deed2cff7f31273b2a567026871d92"
   },
   "latest": {
-    "premarket": "2026-11-06:premarket:3499fc6ef5df1851a55c82ee41837ca96ef1a55ab12931f1d84903b1ec1fc62e",
-    "close": "2026-11-06:close:7ba20ae1405470095b8c2380b91eea77954a26c27ef2bdb91b8a5192c84f77bf",
-    "signal": "2026-11-06:signal:670090186c954e643f8caf7b898c3009a4d321add6ad8e5292da9184c815b130"
+    "premarket": "2026-11-06:premarket:2c7cfb0b93a745cb34b4f4573ae8c890fc61f2c0dc8602b9a4da4066a1625ab6",
+    "close": "2026-11-06:close:454c40039f6f40f1099bfcfbaea5c5dbb2d19d33186578169f65bfb4af2b8f19"
   },
   "companyDates": {
     "002080": "2026-11-06",
@@ -544,13 +557,5 @@
     "605117": "2026-11-06",
     "002028": "2026-11-06",
     "300014": "2026-11-06"
-  },
-  "strategy": {
-    "date": "2026-11-06",
-    "state": "flat",
-    "page": "strategy.html",
-    "sha256": "670090186c954e643f8caf7b898c3009a4d321add6ad8e5292da9184c815b130",
-    "picks": 0,
-    "blocked": 0
   }
 }
