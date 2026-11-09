@@ -509,7 +509,8 @@
   },
   "latest": {
     "premarket": "2026-11-09:premarket:a10a1705ac4778f0cecb74e37c6f925208582ffa8d03a6cf126a5207b1ea0dec",
-    "close": "2026-11-09:close:bdeb4b31dc59559b9ae181cbce0bc3ee2edfc1381066ce056cfdacf2b5d22891"
+    "close": "2026-11-09:close:bdeb4b31dc59559b9ae181cbce0bc3ee2edfc1381066ce056cfdacf2b5d22891",
+    "signal": "2026-11-09:signal:ffde1dd555f40e41a193a789212d24e0959c66eef2bc1510f1f838ad8b4a239b"
   },
   "companyDates": {
     "002080": "2026-11-09",
@@ -643,5 +644,13 @@
     "300014": "2026-11-09",
     "000338": "2026-11-09",
     "002865": "2026-11-09"
+  },
+  "strategy": {
+    "date": "2026-11-09",
+    "state": "flat",
+    "page": "strategy.html",
+    "sha256": "ffde1dd555f40e41a193a789212d24e0959c66eef2bc1510f1f838ad8b4a239b",
+    "picks": 0,
+    "blocked": 3
   }
 }
