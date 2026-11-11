@@ -1,0 +1,33 @@
+{
+  "accounts": [
+    {
+      "account_id": "acc-core",
+      "bootstrap": true,
+      "cash": 2818560.13,
+      "currency": "CNY",
+      "equity": 2818560.13,
+      "equity_index": 2.8186,
+      "forward_validation": {
+        "sessions_done": 3,
+        "sessions_required": 60,
+        "started_at": "2026-11-06",
+        "status": "recording"
+      },
+      "holdings_count": 0,
+      "json": "strategy.json",
+      "kind": "alpha",
+      "latest_signal_date": "2026-11-11",
+      "ledger_source": "bootstrap:strategy/data/positions.json",
+      "name": "语料首提 + 簇热度 + 确认型空仓",
+      "nominal_capital": 1000000.0,
+      "page": "strategy.html",
+      "short_name": "语料热度主策略",
+      "slot_count": 3,
+      "stale": false,
+      "status": "live",
+      "strategy_id": "core"
+    }
+  ],
+  "as_of": "2026-11-11",
+  "schema": "yansheng-strategy-index-v1"
+}

@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>衍盛 · 策略对比</title><style>
+:root{--bg:#f4f6f8;--card:#fff;--line:#e3e7ee;--text:#1c2430;--muted:#6b7787;
+--accent:#2f6fed;--up:#d94a4a;--down:#2e9e6b;--ink:#0f1b2d}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:15px/1.7 -apple-system,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+.wrap{max-width:1080px;margin:0 auto;padding:28px 20px 60px}
+.top{display:flex;align-items:baseline;gap:14px;margin-bottom:18px}
+.brand{font-size:20px;font-weight:700;letter-spacing:.5px}
+.top .muted{margin-left:auto;font-size:12px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:20px 22px;margin-bottom:18px}
+.card-head{display:flex;align-items:baseline;gap:10px;margin-bottom:4px}
+.card-head h2{font-size:16px;margin:0}
+.muted{color:var(--muted);font-size:12px}
+.lede{margin:6px 0 16px;color:#38455a}
+table{width:100%;border-collapse:collapse;font-size:14px}
+th,td{padding:11px 10px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+th{font-size:12px;color:var(--muted);font-weight:600;background:#f8fafc}
+td.num{font-variant-numeric:tabular-nums}
+.tag{display:inline-block;padding:1px 8px;border-radius:999px;font-size:12px;border:1px solid var(--line);background:#f6f8fb}
+.tag.live{color:#1f7a4d;border-color:#bfe3cf;background:#eef8f2}
+.tag.backtested{color:#8a5a00;border-color:#f0dcb4;background:#fdf6e8}
+.tag.research{color:#5b6472;border-color:#dde3ec;background:#f4f6fa}
+.note{font-size:12px;color:var(--muted);margin-top:10px}
+.empty{border:1px dashed var(--line);border-radius:10px;padding:18px;color:#3b4757;background:#fbfcfe}
+footer{color:var(--muted);font-size:12px;margin-top:22px;line-height:1.8}
+</style></head>
+<body><div class="wrap">
+<div class="top"><div class="brand">衍盛 · 策略对比</div>
+<div class="muted">数据截至 2026-11-11</div></div>
+<div class="card">
+<div class="card-head"><h2>同口径并列</h2><span class="muted">不排名、不加权</span></div>
+<p class="lede">对比的前提是同口径，不是谁涨得多。</p>
+<div class="empty">目前只有 1 条已上线账户，对比页需要至少两条才能并列。第二条账户接入后，这里会按同一区间、同一成本、同一基准并列显示，不做收益排名。</div>
+<p class="note">两条账户的资金互不叠加：一条满仓不影响另一条的仓位与成交。</p>
+</div>
+<footer>衍盛 · 策略研究记录。仅并列展示事实，不构成投资建议。</footer>
+</div></body></html>
