@@ -16,7 +16,7 @@
       "holdings_count": 0,
       "json": "strategy.json",
       "kind": "alpha",
-      "latest_signal_date": "2026-11-12",
+      "latest_signal_date": "2026-11-13",
       "ledger_source": "bootstrap:strategy/data/positions.json",
       "name": "语料首提 + 簇热度 + 确认型空仓",
       "nominal_capital": 1000000.0,
@@ -28,6 +28,6 @@
       "strategy_id": "core"
     }
   ],
-  "as_of": "2026-11-12",
+  "as_of": "2026-11-13",
   "schema": "yansheng-strategy-index-v1"
 }
