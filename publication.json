@@ -563,12 +563,12 @@
   ],
   "poolDate": "2026-11-16",
   "schema": "yansheng-publication-v2",
-  "release_id": "be7b01b9b5527cb89dc72191",
+  "release_id": "bfe6536aed223110aa3c2421",
   "published_at": null,
-  "prepared_at": "2026-11-15T22:52:12.627997+00:00",
+  "prepared_at": "2026-11-15T23:34:55.320789+00:00",
   "bundle": {
-    "path": "release-be7b01b9b5527cb89dc72191.json",
-    "sha256": "b3902e80f1171e7ef68b03de9098fee9495e72d89bece48405e8bbdb170cc6f7"
+    "path": "release-bfe6536aed223110aa3c2421.json",
+    "sha256": "02d54b9cf6de0d690f6c88af1216cbd5b47a3a5a4e24db0a13770f8e44e81710"
   },
   "companyDates": {
     "002080": "2026-11-16",
