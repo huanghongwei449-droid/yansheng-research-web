@@ -1,20 +1,20 @@
 {
   "schema": "yansheng-strategy-page-v1",
-  "date": "2026-11-13",
-  "generated_at": "2026-11-13T15:21:24+08:00",
+  "date": "2026-11-16",
+  "generated_at": "2026-11-16T15:23:56+08:00",
   "state": "flat",
   "page": "strategy.html",
-  "sha256": "b3e4abcd62d2dc5d95907091b3a87132ffe3080527465d9919d5d54ce332dfbe",
+  "sha256": "d11c4d591cd1b0ddfb126816dddc4b6b87409715d8a71f8a2fa0b1da6d7210f6",
   "picks": 0,
   "blocked": 0,
   "market": {
-    "index": 5058.27,
-    "ma20": 5149.16,
-    "ma60": 5574.59,
-    "ma120": 5870.89,
-    "below_days": 85,
-    "dd_from_ma120": -0.1384,
-    "prev_below_days": 84
+    "index": 4959.1,
+    "ma20": 5132.51,
+    "ma60": 5557.39,
+    "ma120": 5859.15,
+    "below_days": 86,
+    "dd_from_ma120": -0.1536,
+    "prev_below_days": 85
   },
   "rule": {
     "heat_threshold": 0.5,
@@ -24,6 +24,6 @@
     "stop_floor": 0.92,
     "fill": "next_open"
   },
-  "source_signal": "strategy/out/2026-11-13.json",
+  "source_signal": "strategy/out/2026-11-16.json",
   "disclaimer": "研究记录，不构成投资建议"
 }

@@ -711,15 +711,15 @@
     "002865": "2026-11-16"
   },
   "strategy": {
-    "date": "2026-11-13",
+    "date": "2026-11-16",
     "state": "flat",
     "page": "strategy.html",
-    "sha256": "461b406ca1777c526cd1f65e333c98c3697b6e9b1b301b698d6f9d0d90af4967",
+    "sha256": "d11c4d591cd1b0ddfb126816dddc4b6b87409715d8a71f8a2fa0b1da6d7210f6",
     "picks": 0,
     "blocked": 0
   },
   "latest": {
-    "signal": "2026-11-13:signal:461b406ca1777c526cd1f65e333c98c3697b6e9b1b301b698d6f9d0d90af4967",
+    "signal": "2026-11-16:signal:d11c4d591cd1b0ddfb126816dddc4b6b87409715d8a71f8a2fa0b1da6d7210f6",
     "premarket": "2026-11-16:premarket:bcdedc82d49d49dd2844f5e6da67970ed101fd41fcfb622b0dedcd2f502f68ec",
     "close": "2026-11-16:close:dc212f425a737f79718244e6a40d1dab8d1ab5985979d040dfbd2445337ec9a4"
   }
