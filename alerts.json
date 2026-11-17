@@ -2,7 +2,7 @@
   "schema": "yansheng-leader-alert-page-v1",
   "date": "2026-11-16",
   "page": "alerts.html",
-  "sha256": "83c038bacea1636d7d392cc3e15c2208736abd7710480b604dd195aacf60a7ea",
+  "sha256": "62936ee899d0b0409b2cf71a42c07627b2e4569806a33a27789732612458face",
   "rules_version": "alert-v1",
   "generated_at": "2026-11-16T15:34:30+0800",
   "index": {
