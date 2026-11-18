@@ -77,7 +77,8 @@
     const docs = [...document.querySelectorAll('article.doc')]; if(!docs.length) return;
     function show(value) {
       if(value==='pre') value='premarket';
-      const selected = document.getElementById(value)||document.getElementById('premarket')||docs[0];
+      const current = document.querySelector('aside[data-current-session]')?.dataset.currentSession;
+      const selected = docs.find(d=>d.id===value)||docs.find(d=>d.id===current)||docs[0];
       docs.forEach(d=>d.hidden=d!==selected);
       document.querySelectorAll('button[data-session]').forEach(b=>{
         const active=b.dataset.session===selected.id; b.classList.toggle('active',active); b.setAttribute('aria-pressed',String(active));
@@ -98,8 +99,10 @@
     sessions(); companyView();
     const input=document.getElementById('company-search'); if(input) input.oninput=filterCompanies;
     const accept=document.getElementById('accept-update'); if(accept) accept.onclick=()=>{
-      if(historical) location.href='today.html?session='+encodeURIComponent(new URLSearchParams(location.search).get('session')||'premarket');
-      else applyCandidate();
+      if(historical) {
+        const session = new URLSearchParams(location.search).get('session');
+        location.href = session ? 'today.html?session='+encodeURIComponent(session) : 'today.html';
+      } else applyCandidate();
     };
     filterCompanies();
   }

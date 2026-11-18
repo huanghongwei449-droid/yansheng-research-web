@@ -587,16 +587,23 @@
       "identity": "正式版",
       "sha256": "fc98af87a84a52270e783b076cf39728896e95426f7f68cf48e6e876869f8dc6",
       "page": "report-2026-11-18-premarket-fc98af87a84a.html"
+    },
+    {
+      "date": "2026-11-18",
+      "session": "close",
+      "identity": "正式版",
+      "sha256": "98e3f9da643a968d1bfd01ccc3ab96478cc097acc77cd4090b5517fb68ba0aad",
+      "page": "report-2026-11-18-close-98e3f9da643a.html"
     }
   ],
   "poolDate": "2026-11-18",
   "schema": "yansheng-publication-v2",
-  "release_id": "1887aa642f506b0c801b3986",
+  "release_id": "a2a24b20fbcbf020298c762e",
   "published_at": null,
-  "prepared_at": "2026-11-17T23:11:11.747147+00:00",
+  "prepared_at": "2026-11-18T07:21:22.298032+00:00",
   "bundle": {
-    "path": "release-1887aa642f506b0c801b3986.json",
-    "sha256": "e2345a0fb9f6db103742afa5d443f71ef9227cb0e423f340ea7b947bf5b63f6b"
+    "path": "release-a2a24b20fbcbf020298c762e.json",
+    "sha256": "01dfdcc4e9b79ca68c349ab448e507a2fa553090adec2f4ed26e22ae404eb34f"
   },
   "companyDates": {
     "002080": "2026-11-18",
@@ -731,17 +738,21 @@
     "000338": "2026-11-18",
     "002865": "2026-11-18"
   },
+  "latest": {
+    "premarket": "2026-11-18:premarket:fc98af87a84a52270e783b076cf39728896e95426f7f68cf48e6e876869f8dc6",
+    "close": "2026-11-18:close:98e3f9da643a968d1bfd01ccc3ab96478cc097acc77cd4090b5517fb68ba0aad",
+    "signal": "2026-11-17:signal:604470052cf17b6785de2b51d9e00d6ed517ab1cbe2c31f9b21c1aedf0c8f36e"
+  },
+  "currentReport": {
+    "date": "2026-11-18",
+    "session": "close"
+  },
   "strategy": {
     "date": "2026-11-17",
     "state": "flat",
     "page": "strategy.html",
-    "sha256": "d4a615d05075ea621eae924462d691ba9db9076d32fc2da8b0a56ad4708ccba8",
+    "sha256": "604470052cf17b6785de2b51d9e00d6ed517ab1cbe2c31f9b21c1aedf0c8f36e",
     "picks": 0,
     "blocked": 0
-  },
-  "latest": {
-    "signal": "2026-11-17:signal:d4a615d05075ea621eae924462d691ba9db9076d32fc2da8b0a56ad4708ccba8",
-    "premarket": "2026-11-18:premarket:fc98af87a84a52270e783b076cf39728896e95426f7f68cf48e6e876869f8dc6",
-    "close": "2026-11-17:close:3e1c3942ffd57494bdf33873fe1e028aace655675c4d06d0bd97ab0ea096a629"
   }
 }
