@@ -1,25 +1,25 @@
 {
   "schema": "yansheng-leader-alert-page-v1",
-  "date": "2026-11-19",
+  "date": "2026-11-20",
   "page": "alerts.html",
-  "sha256": "912a71696ab46a05813bfa0abe86624bf7612a68f67a5d84465b315742bf23ad",
+  "sha256": "efdf829ed5ae05f9335f8b2d3d9b685679f1cf85e85d8343f680aa68fe6f4e98",
   "rules_version": "alert-v1",
-  "generated_at": "2026-11-19T15:34:36+0800",
+  "generated_at": "2026-11-20T15:58:24+0800",
   "index": {
-    "r20": -0.0537,
+    "r20": -0.0968,
     "in_rebound_background": true
   },
   "counts": {
-    "今日启动": 9,
+    "今日启动": 13,
     "今日分歧（明早挂单）": 0,
     "已成交": 1,
     "等分歧": 0,
-    "等题材跟随": 26,
-    "到价未触及": 1,
+    "等题材跟随": 9,
+    "到价未触及": 0,
     "已过挂单日": 0,
     "失效：没出现分歧": 0,
     "失效：题材没跟": 78
   },
-  "rows": 115,
+  "rows": 101,
   "disclaimer": "提示器只做识别，不构成推荐。"
 }
