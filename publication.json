@@ -783,17 +783,17 @@
   "latest": {
     "premarket": "2026-11-23:premarket:b2ae8082db779924dae1f0faa970c7a4cb50af087b5740c6e198a6b04f9106c6",
     "close": "2026-11-23:close:aa36af2c993033370e637ff7990872059fcf792a2d38570044dba348c14bd518",
-    "signal": "2026-11-20:signal:7f9b781bab34dea0326f612c06bff763f70e9030bcb8884b8c3e8ee8b19dfee6"
+    "signal": "2026-11-23:signal:a7871623d91c21ae62215eb5cdee28147277678b06d2008b6ffcf499ea2c0180"
   },
   "currentReport": {
     "date": "2026-11-23",
     "session": "close"
   },
   "strategy": {
-    "date": "2026-11-20",
+    "date": "2026-11-23",
     "state": "flat",
     "page": "strategy.html",
-    "sha256": "7f9b781bab34dea0326f612c06bff763f70e9030bcb8884b8c3e8ee8b19dfee6",
+    "sha256": "a7871623d91c21ae62215eb5cdee28147277678b06d2008b6ffcf499ea2c0180",
     "picks": 0,
     "blocked": 0
   }
