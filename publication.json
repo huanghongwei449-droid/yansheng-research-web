@@ -657,16 +657,23 @@
       "identity": "正式版",
       "sha256": "5f6c65de36ffcb4ccc70e1f03961d32ae5edcdee965854ffff649735215678cc",
       "page": "report-2026-11-25-premarket-5f6c65de36ff.html"
+    },
+    {
+      "date": "2026-11-25",
+      "session": "close",
+      "identity": "正式版",
+      "sha256": "694bc0b582a73cef9d8b35ef29c3d3ddf966807153aa2b48b99c843fef8db56c",
+      "page": "report-2026-11-25-close-694bc0b582a7.html"
     }
   ],
   "poolDate": "2026-11-25",
   "schema": "yansheng-publication-v2",
-  "release_id": "631eeaa88d18e26b42259460",
+  "release_id": "f875d2ac59bfaea3a0240408",
   "published_at": null,
-  "prepared_at": "2026-11-24T23:04:33.938979+00:00",
+  "prepared_at": "2026-11-25T07:22:42.011003+00:00",
   "bundle": {
-    "path": "release-631eeaa88d18e26b42259460.json",
-    "sha256": "f6df4c15affc1a710cf5caa33da72ba89e1f92e898d8fed3037dc7bce9057ec9"
+    "path": "release-f875d2ac59bfaea3a0240408.json",
+    "sha256": "cfd50149be40b5818348c947ccaf17f6d9bd23504b6cc4f95d7e717acb567f02"
   },
   "companyDates": {
     "002080": "2026-11-25",
@@ -803,12 +810,12 @@
   },
   "latest": {
     "premarket": "2026-11-25:premarket:5f6c65de36ffcb4ccc70e1f03961d32ae5edcdee965854ffff649735215678cc",
-    "close": "2026-11-24:close:2edb1e15ce51c5261178b25be6c13a461ea8cc69b04d846cd510d3a3ab1325a1",
+    "close": "2026-11-25:close:694bc0b582a73cef9d8b35ef29c3d3ddf966807153aa2b48b99c843fef8db56c",
     "signal": "2026-11-23:signal:a7871623d91c21ae62215eb5cdee28147277678b06d2008b6ffcf499ea2c0180"
   },
   "currentReport": {
     "date": "2026-11-25",
-    "session": "premarket"
+    "session": "close"
   },
   "strategy": {
     "date": "2026-11-23",
